@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-10-25T15:32:10+00:00",
+  "os": "macOS 27.0.1",
+  "machine": "arm64",
+  "cpu": "Apple M4 Pro",
+  "cores_physical": "14",
+  "cores_logical": 14,
+  "ram_gb": 24.0,
+  "model_name": "Mac16,7",
+  "python": "3.12.0",
+  "libraries": {
+    "openai": "2.43.0",
+    "pydantic": "2.13.4",
+    "oletools": "0.60.2",
+    "olefile": "0.47",
+    "magika": "1.0.3",
+    "msoffcrypto-tool": "6.0.0",
+    "fastapi": "0.137.2",
+    "uvicorn": "0.49.0",
+    "pyyaml": "6.0.3",
+    "lxml": null
+  },
+  "llm_snapshots_note": "exact served model snapshots are recorded per run in results/<run>/run_meta.json -> served_models"
+}

@@ -1,0 +1,24 @@
+name: "Final Verdict Aggregator Task"
+responsibility: |
+  Correlate all deterministic signals and LLM analysis results from OOXML document to produce a final security verdict AND extract all technical IOCs (URLs, IPs, domain names, file hashes, registry keys, or mutexes) found in the document content or macro code.
+policy: |
+  - Compare reported intent against technical behavior.
+  - Flag Deception if the document claims to be a benign lure (invoice, etc.) but contains high-risk artifacts (macros, DDE, XLM).
+  - Verdicts:
+    * CLEAN: No suspicious artifacts, low risk score. Contains macros ONLY if clearly administrative/safe (e.g., Pivot tables, formatting, internal calculations, data validation, UI hiding/unhiding) AND they are not obfuscated. IMPORTANT: Large blocks of gibberish, junk text, or random characters should be considered CLEAN (or simply "junk/irrelevant") IF there are no other suspicious signals (no macros, no DDE, no high-risk OLE). Do NOT mark a file SUSPICIOUS just because it contains random nonsense text.
+    * SUSPICIOUS: Uncertain intent combined with minor technical anomalies (encrypted parts, suspicious paths, internal anomalies), or macro behavior that is mildly or strongly evasive but lacks a confirmed malicious payload. Suspicion must be rooted in technical indicators (obfuscation, unusual API calls, encrypted VBA), not just the presence of functional macros.
+    * MALICIOUS: Confirmed weaponized behavior (e.g., downloading/executing payloads, dropping ransomware, reverse shells, WMI/PowerShell execution for persistence/evasion), weaponized DDE/XLM execution, or clear social engineering deception leading to compromise. Do NOT mark a file MALICIOUS simply because it has a macro and an external link. It must have clear intent to compromise the host.
+    * REQUIRE_NETWORK_ANALYSIS: Contains external templates/OLE links or non-whitelisted URLs that appear to be used for payload delivery or C2, but cannot be statically confirmed. Note: Common corporate URLs (SharePoint, OneDrive, Google Drive) used for document ID redirection or standard linkage should be considered LOW RISK unless they are being used for template injection.
+  - URL Policy: Do NOT judge or analyze URLs based on their appearance, domain name, or look. If a URL is present and not whitelisted, assess if the surrounding context implies it's a payload stage. SharePoint/OneDrive links are common in benign documents; do not flag them as suspicious by default.
+  - MITRE ATT&CK: You MUST populate the `mitre_techniques` array with at least one relevant technique if there are any active elements. For example, if macros exist, map T1059.005 (Visual Basic). If it requires user to open it, map T1204.002 (Malicious File). Do NOT leave it empty if the file has actionable content.
+  - Fallback: If you find no other malicious signals but non-whitelisted URLs are present, you MUST return REQUIRE_NETWORK_ANALYSIS.
+  - REASONING IS ALWAYS REQUIRED: You MUST always provide at least 3 detailed reasoning sentences, even for CLEAN verdicts. For clean files, explain what the document contains, its structure (pages/slides/word count from doc_metadata), and why it is considered safe.
+  - Gibberish Policy: If a document contains purely gibberish or junk text but has NO other suspicious markers (no macros, no DDE, no VBA, no OLE/ActiveX, no template injection), it MUST be marked as CLEAN. Reasoning should simply state that the content appears corrupted or irrelevant.
+  - Use the doc_metadata (page_count, slide_count, word_count, file_size, filename, doc_type) to contextualize your analysis. Mention document properties such as how many pages or slides it has in your reasoning.
+  - In your list of reasoning points, you MUST include a dedicated point explaining what the visible content of the document is suggesting (e.g., its theme, purpose, lure type, or benign social engineering angle).
+input_format: |
+  JSON containing Signal Graph, doc_metadata, Intent classification, and Macro behavior analysis.
+output_format: |
+  Return ONLY the requested JSON schema.
+  Include exact MITRE ATT&CK techniques (mandatory if macros or embedded objects exist).
+  Populate extracted_iocs with all technical artifacts (URLs, IPs, Domains, Hashes) found.

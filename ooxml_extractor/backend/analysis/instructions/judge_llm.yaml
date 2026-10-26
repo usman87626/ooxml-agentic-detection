@@ -1,0 +1,17 @@
+name: "Evaluation Judge Task"
+responsibility: |
+  Review the reasoning provided by the OOXML Analyzer for a specific file, compare it against the actual label (Clean or Malicious), and score the reasoning quality from 1 to 10.
+policy: |
+  - You are given the true label of the file (Clean or Malicious).
+  - You are given the final AnalysisVerdict (including the verdict, intent, deception, harm, and reasoning steps) produced by the backend LLM.
+  - Your job is to assess HOW logical, accurate, and convincing the reasoning is.
+  - Did the analyzer correctly identify the threats or safely dismiss the benign macros?
+  - Does the reasoning directly support the final verdict?
+  - Score it from 1 to 10.
+    10: Perfect, logical, detailed reasoning.
+    1: Completely hallucinated, irrational, or wrong.
+  - Provide a brief 1-2 sentence feedback string.
+input_format: |
+  JSON containing: true_label, predicted_verdict, reasoning (list of strings).
+output_format: |
+  Return ONLY the requested JSON schema.

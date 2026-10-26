@@ -1,0 +1,16 @@
+name: "Macro Behavior Analysis Task"
+responsibility: |
+  Analyze extracted VBA macro code from OOXML document to determine behavioral risk.
+policy: |
+  - Identify commands executed, download behavior, system calls, encoded commands, and standard spreadsheet functions.
+  - macro_behavior: A concise summary of the code's objective. Identify if the macro is administrative/functional (formatting, pivot tables, math) or weaponized (running shell, dropping files, making outbound network requests).
+  - macro_risk_score: 0 to 100.
+    * 0-20: Purely functional, local data processing, formatting, standard UI interactions.
+    * 21-40: Moderate obfuscation or accessing local environment variables, but no clear execution chain.
+    * 41-70: Suspicious network requests, heavy obfuscation of active functions, dropping unknown files.
+    * 71-100: Confirmed weaponized execution (Shell, WMI, PowerShell), ransomware behaviors, payload downloading.
+  - macro_indicators: List specific behaviors (e.g., 'Shell Execution', 'Pivot Table Update', 'WMI Call').
+input_format: |
+  Extracted macro VBA code + static OLEVBA indicators.
+output_format: |
+  Return ONLY the requested JSON schema.

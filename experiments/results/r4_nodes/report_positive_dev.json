@@ -1,0 +1,333 @@
+{
+  "run_id": "r4_nodes",
+  "model_analysis": "gpt-4o-mini",
+  "model_aggregator": "gpt-4o-mini",
+  "rna_policy": "positive",
+  "counts": {
+    "total_predictions": 164,
+    "clean": 83,
+    "malicious": 81,
+    "errored_no_verdict": 0,
+    "economics_n": 163,
+    "excluded_from_economics": 1,
+    "needs_web_analysis_flagged": 52
+  },
+  "metrics": {
+    "confusion_matrix": {
+      "TP": 68,
+      "TN": 59,
+      "FP": 24,
+      "FN": 13
+    },
+    "scored": 164,
+    "excluded_from_matrix": 0,
+    "accuracy": 0.7744,
+    "precision": 0.7391,
+    "recall_tpr": 0.8395,
+    "specificity_tnr": 0.7108,
+    "fpr": 0.2892,
+    "f1": 0.7861,
+    "balanced_accuracy": 0.7752,
+    "roc_auc_riskscore": 0.8449
+  },
+  "timing": {
+    "end_to_end_ms": {
+      "n": 163,
+      "min": 2745.52,
+      "max": 64719.57,
+      "mean": 5442.2393,
+      "median": 4635.66,
+      "p90": 6897.13,
+      "p95": 7410.04,
+      "total": 887085.0
+    },
+    "reasoning_ms": {
+      "n": 163,
+      "min": 2689.82,
+      "max": 64514.71,
+      "mean": 5310.8391,
+      "median": 4329.96,
+      "p90": 6649.21,
+      "p95": 7186.99,
+      "total": 865666.78
+    },
+    "extraction_ms": {
+      "n": 163,
+      "min": 19.58,
+      "max": 916.28,
+      "mean": 105.7021,
+      "median": 56.74,
+      "p90": 254.9,
+      "p95": 381.54,
+      "total": 17229.45
+    },
+    "deterministic_ms": {
+      "n": 163,
+      "min": 1.2,
+      "max": 430.84,
+      "mean": 25.698,
+      "median": 5.28,
+      "p90": 73.78,
+      "p95": 91.9,
+      "total": 4188.77
+    },
+    "intent_ms": {
+      "n": 140,
+      "min": 1012.57,
+      "max": 1845.54,
+      "mean": 1225.4406,
+      "median": 1221.5,
+      "p90": 1401.47,
+      "p95": 1430.67,
+      "total": 171561.68
+    },
+    "macro_ms": {
+      "n": 66,
+      "min": 0.03,
+      "max": 2733.43,
+      "mean": 1363.647,
+      "median": 1264.355,
+      "p90": 1778.59,
+      "p95": 1936.83,
+      "total": 90000.7
+    },
+    "aggregator_ms": {
+      "n": 163,
+      "min": 2240.76,
+      "max": 63308.29,
+      "mean": 3706.162,
+      "median": 3129.2,
+      "p90": 4144.67,
+      "p95": 4447.27,
+      "total": 604104.4
+    },
+    "end_to_end_seconds_mean": 5.442
+  },
+  "economics": {
+    "prompt_tokens": {
+      "n": 163,
+      "min": 2693,
+      "max": 24576,
+      "mean": 5097.4233,
+      "median": 4226,
+      "p90": 9221,
+      "p95": 10713,
+      "total": 830880
+    },
+    "completion_tokens": {
+      "n": 163,
+      "min": 226,
+      "max": 7828,
+      "mean": 409.6196,
+      "median": 320,
+      "p90": 484,
+      "p95": 517,
+      "total": 66768
+    },
+    "total_tokens": {
+      "n": 163,
+      "min": 2952,
+      "max": 32404,
+      "mean": 5507.0429,
+      "median": 4611,
+      "p90": 9891,
+      "p95": 11216,
+      "total": 897648
+    },
+    "llm_calls_per_sample": {
+      "n": 163,
+      "min": 1.0,
+      "max": 3.0,
+      "mean": 2.2577,
+      "median": 2.0,
+      "p90": 3.0,
+      "p95": 3.0,
+      "total": 368.0
+    },
+    "cost_usd": {
+      "n": 163,
+      "min": 0.0006,
+      "max": 0.0084,
+      "mean": 0.001,
+      "median": 0.0008,
+      "p90": 0.0017,
+      "p95": 0.002,
+      "total": 0.1647
+    },
+    "avg_tokens_per_sample": 5507.0,
+    "avg_cost_per_sample_usd": 0.00101,
+    "total_cost_usd": 0.164693,
+    "projected_cost_per_1000_usd": 1.0104
+  },
+  "run_totals": {
+    "samples_scored": 163,
+    "total_llm_tokens": 897648,
+    "total_prompt_tokens": 830880,
+    "total_completion_tokens": 66768,
+    "total_cost_usd": 0.164693,
+    "avg_cost_per_sample_usd": 0.00101,
+    "avg_tokens_per_sample": 5507.0,
+    "wall_clock_seconds": 1888.09,
+    "summed_end_to_end_seconds": 887.09,
+    "summed_reasoning_seconds": 865.67,
+    "avg_end_to_end_seconds": 5.442,
+    "throughput_docs_per_min": 5.18,
+    "projected_cost_per_1000_usd": 1.0104,
+    "projected_cost_per_million_usd": 1010.39
+  },
+  "per_stage": {
+    "intent": {
+      "prompt_tokens": 162149,
+      "completion_tokens": 6869,
+      "total_tokens": 169018,
+      "cost_usd": 0.028444,
+      "calls": 140
+    },
+    "macro": {
+      "prompt_tokens": 180739,
+      "completion_tokens": 4042,
+      "total_tokens": 184781,
+      "cost_usd": 0.029536,
+      "calls": 65
+    },
+    "aggregator": {
+      "prompt_tokens": 487992,
+      "completion_tokens": 55857,
+      "total_tokens": 543849,
+      "cost_usd": 0.106713,
+      "calls": 163
+    }
+  },
+  "verdict_distribution": {
+    "SUSPICIOUS": 70,
+    "CLEAN": 72,
+    "MALICIOUS": 22
+  },
+  "deterministic_floor": {
+    "verdicts_influenced_by_floor": 1,
+    "share_of_scored": 0.0061
+  },
+  "by_doc_type": {
+    "Excel Macro-Enabled Workbook (OOXML)": {
+      "FP": 14,
+      "TN": 13,
+      "TP": 28
+    },
+    "Word Document (OOXML)": {
+      "TN": 27,
+      "FP": 1,
+      "TP": 28
+    },
+    "Excel Workbook (OOXML)": {
+      "TN": 10,
+      "FP": 2,
+      "TP": 6,
+      "FN": 6
+    },
+    "PowerPoint Presentation (OOXML)": {
+      "TN": 9,
+      "FN": 4,
+      "TP": 5
+    },
+    "PowerPoint Macro-Enabled Presentation (OOXML)": {
+      "FP": 7,
+      "FN": 3,
+      "TP": 1
+    }
+  },
+  "signal_firing_on_true_positives": {
+    "has_macros": 32,
+    "macroless_attacks_detected": 28,
+    "obfuscation_detected": 28,
+    "template_injection_detected": 9,
+    "has_dangerous_activex": 2,
+    "xlm_detected": 1
+  },
+  "signal_firing_on_false_positives": {
+    "has_macros": 21,
+    "obfuscation_detected": 9,
+    "macroless_attacks_detected": 7,
+    "template_injection_detected": 2
+  },
+  "false_negatives": [
+    {
+      "filename": "4dd75e9c997abbb78aff675a28039b49ed7ebbfc2d97a4e378f7fd0d03d7e2fd.pptx",
+      "doc_type": "PowerPoint Presentation (OOXML)",
+      "risk_score": 3,
+      "signals_present": []
+    },
+    {
+      "filename": "59e868574332d2aae75eef795596950f4c27d5b782b1a83853e66663077050ea.xlsx",
+      "doc_type": "Excel Workbook (OOXML)",
+      "risk_score": 24,
+      "signals_present": []
+    },
+    {
+      "filename": "7e6aaa62831f2c2d26fbd3af7a7650fced824eb60c8dcbb85bb61c25a9614674.pptx",
+      "doc_type": "PowerPoint Presentation (OOXML)",
+      "risk_score": 0,
+      "signals_present": []
+    },
+    {
+      "filename": "82a6bc0c91753e50d86d70e628559aa98d59ce8d18a54c0096dc4d61570c7313.xlsx",
+      "doc_type": "Excel Workbook (OOXML)",
+      "risk_score": 24,
+      "signals_present": []
+    },
+    {
+      "filename": "92779228416f0dce42fd4e3d1ead5cfaecf563694391c01f421c53edd773b72e.pptx",
+      "doc_type": "PowerPoint Presentation (OOXML)",
+      "risk_score": 3,
+      "signals_present": []
+    },
+    {
+      "filename": "9dd04a0478f0544a405b6eaf7ac69d12b09d47e6bcb1d9c7381a337fbd2c1cba.pptm",
+      "doc_type": "PowerPoint Macro-Enabled Presentation (OOXML)",
+      "risk_score": 0,
+      "signals_present": []
+    },
+    {
+      "filename": "b291f17e5402645975b43f5c77bccfe4086521a8692a03416155b67d6c681c2d.xlsx",
+      "doc_type": "Excel Workbook (OOXML)",
+      "risk_score": 24,
+      "signals_present": []
+    },
+    {
+      "filename": "d719137d0897400221a3aef32bcdd01d537113efd80ccc63b1cfaf9c2905b979.pptm",
+      "doc_type": "PowerPoint Macro-Enabled Presentation (OOXML)",
+      "risk_score": 0,
+      "signals_present": []
+    },
+    {
+      "filename": "d7f87f322803a94fe4e9e14cd5d01204ad361b4e5466217194650620fc506cc2.pptx",
+      "doc_type": "PowerPoint Presentation (OOXML)",
+      "risk_score": 24,
+      "signals_present": []
+    },
+    {
+      "filename": "dd5084a5b4c7e9853eff014ba9fd15ed00493372ec41181a3e5a169be080597a.xlsx",
+      "doc_type": "Excel Workbook (OOXML)",
+      "risk_score": 0,
+      "signals_present": []
+    },
+    {
+      "filename": "ef626ed9781a41cf289c34127932aa17eaa4026d3907269a36f614f8512d0f57.pptm",
+      "doc_type": "PowerPoint Macro-Enabled Presentation (OOXML)",
+      "risk_score": 0,
+      "signals_present": []
+    },
+    {
+      "filename": "f7824521fa09069c426fb84f0a96ec7f070defa691c5699e2f265e5151d5a458.xlsx",
+      "doc_type": "Excel Workbook (OOXML)",
+      "risk_score": 24,
+      "signals_present": []
+    },
+    {
+      "filename": "f816fa23310189511527310951896f19f9b4496994b5e7e40df9f9f8e661bc0e.xlsx",
+      "doc_type": "Excel Workbook (OOXML)",
+      "risk_score": 24,
+      "signals_present": []
+    }
+  ],
+  "split": "dev"
+}

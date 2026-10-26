@@ -75,4 +75,6 @@ The framework performs static analysis only and never executes documents. Handle
 
 ## Citation
 
-[Add citation after publication]
+Archived code and data: https://doi.org/10.5281/zenodo.23670749
+
+[Article citation to be added after publication]

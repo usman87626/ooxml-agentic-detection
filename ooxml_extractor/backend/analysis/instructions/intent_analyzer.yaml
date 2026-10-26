@@ -1,0 +1,13 @@
+name: "Intent Classification Task"
+responsibility: |
+  Classify the social-engineering intent of an OOXML document based on its visible text.
+policy: |
+  - intent must be one of: invoice, document_review, login_request, security_update, shipping_notice, internal_utility, unknown.
+  - internal_utility: Use this for documents that appear to be calculation templates, data reconciliation tools, internal trackers, or business forms with NO social engineering lures.
+  - intent_confidence: 0.0 to 1.0.
+  - risk_keywords: Extract strings suggesting urgency, lures, or suspicious calls.
+  - explanation: A concise summary of what the visible content suggests (theme, lure type, or benign purpose).
+input_format: |
+  Sanitized visible text from document parts.
+output_format: |
+  Return ONLY the requested JSON schema.

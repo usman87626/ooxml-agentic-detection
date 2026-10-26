@@ -1,0 +1,79 @@
+filename,action,source,reason,auto,suspicious,vba_lines
+context-sensitive shortcut menu.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2010/context-sensitive shortcut menu/context-sensitive shortcut menu.xlsm,auto-run trigger,Workbook_BeforeClose;Workbook_Open,Base64 Strings;Call;Hex Strings;command,129
+list all procedures.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2010/list all procedures/list all procedures.xlsm,auto-run trigger,CommandButton1_Click;Workbook_Open,CodeModule;Hex Strings;VBComponents;VBProject,80
+old-style toolbar.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2010/old-style toolbar/old-style toolbar.xlsm,auto-run trigger,Workbook_BeforeClose;Workbook_Open,Call;Create;Hex Strings,80
+shortcut with submenu.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2010/shortcut with submenu/shortcut with submenu.xlsm,auto-run trigger,Workbook_BeforeClose;Workbook_Open,Base64 Strings;Call;Hex Strings,127
+vba clock chart.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2010/vba clock chart/vba clock chart.xlsm,auto-run trigger,Workbook_BeforeClose;Workbook_Open;cbClockType_Click,Base64 Strings;Call;Hex Strings,99
+Practice_Excel21.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2013/Practice_Excel21/Practice_Excel21.xlsm,auto-run trigger,Workbook_BeforeClose;Workbook_Open,Base64 Strings;Call;Hex Strings;System,239
+Practice_Excel22.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2013/Practice_Excel22/Practice_Excel22.xlsm,auto-run trigger,Auto_Open,Chr;Hex Strings;system,239
+Practice_Excel26.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2013/Practice_Excel26/Practice_Excel26.xlsm,auto-run trigger,Workbook_Open;cmdOK_Click,AddFromString;Application.Visible;Base64 Strings;Chr;CodeModule;Hex Strings;Kill;Open;SendKeys;VBComponents;VBProject;Windows;call;create;run;write,1100
+Practice_QueryTableEvents.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2013/Practice_QueryTableEvents/Practice_QueryTableEvents.xlsm,auto-run trigger,Auto_Open,Hex Strings,58
+Practice_WorkbookEvents.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2013/Practice_WorkbookEvents/Practice_WorkbookEvents.xlsm,auto-run trigger,Workbook_Activate;Workbook_BeforeClose;Workbook_Open,Hex Strings,97
+Practice_WorksheetEvents.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2013/Practice_WorksheetEvents/Practice_WorksheetEvents.xlsm,auto-run trigger,Worksheet_Calculate;Worksheet_Change,Base64 Strings;Hex Strings,124
+excel usage log.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2016/excel usage log/excel usage log.xlsm,auto-run trigger,Workbook_BeforeClose;Workbook_Open,Hex Strings;Open;Print #,31
+log workbook open.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2016/log workbook open/log workbook open.xlsm,auto-run trigger,Workbook_Open,Call;Hex Strings;Open;Print #,64
+no shortcut menus.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2016/no shortcut menus/no shortcut menus.xlsm,auto-run trigger,Workbook_BeforeClose;Workbook_Open,Call;Hex Strings,44
+ontime event demo.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2016/ontime event demo/ontime event demo.xlsm,auto-run trigger,Workbook_BeforeClose,Call;Hex Strings,37
+query table events complete.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2016/query table events complete/query table events complete.xlsm,auto-run trigger,Auto_Open,Base64 Strings;Hex Strings,56
+range selections.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2016/range selections/range selections.xlsm,auto-run trigger,Workbook_BeforeClose;Workbook_Open,Base64 Strings;Call;Hex Strings,228
+splash screen.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2016/splash screen/splash screen.xlsm,auto-run trigger,Workbook_Open;cmdCancel_Click,Hex Strings,58
+splash screen2.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2016/splash screen2/splash screen2.xlsm,auto-run trigger,CloseButton_Click;Workbook_Open,Call;Hex Strings;Lib,79
+workbook_beforeclose workaround.xlsm,ADD,https://github.com/AllenMattson/VBA/Excel 2016/workbook_beforeclose workaround/workbook_beforeclose workaround.xlsm,auto-run trigger,Workbook_BeforeClose;Workbook_Open,Call;Hex Strings;VBA Stomping,44
+FORMLETTER.XLSM,ADD,https://github.com/AllenMattson/VBA/FORMLETTER/FORMLETTER.XLSM,auto-run trigger,Workbook_Open,Base64 Strings;Chr;Hex Strings,64
+MYFUNCS.XLSM,ADD,https://github.com/AllenMattson/VBA/MYFUNCS/MYFUNCS.XLSM,auto-run trigger,Workbook_Open,Call;Hex Strings,55
+SHAPE OBJECT COLORS.XLSM,ADD,https://github.com/AllenMattson/VBA/SHAPE OBJECT COLORS/SHAPE OBJECT COLORS.XLSM,auto-run trigger,Workbook_BeforeClose;Workbook_Open,Base64 Strings;Hex Strings;open;windows,108
+03_sine_wave.xlsm,KEEP,,score 2,,Hex Strings;Run,51
+export charts.xlsm,KEEP,,score 16,ChartList_Change;ScrollToChartButton_Click;Workbook_Open,Base64 Strings;Call;Hex Strings;Kill;Open;command;output;system;write,521
+getoption function.xlsm,KEEP,,score 11,CommandButton1_Click,Base64 Strings;CodeModule;Create;Hex Strings;VBComponents;VBProject;run,204
+ADD BUTTON AND CODE.XLSM,KEEP,,score 9,CommandButton1_Click,Call;CodeModule;Hex Strings;VBComponents;VBProject;run,70
+ADD 100 BUTTONS.XLSM,KEEP,,score 8,,CodeModule;Hex Strings;VBComponents;VBProject;run,86
+EXPORT ALL GRAPHICS.XLSM,KEEP,,score 8,,ActiveWorkbook.SaveAs;Hex Strings;Kill;Open;Shell;vbNormalFocus,51
+export and import csv.xlsm,KEEP,,score 8,,Chr;Hex Strings;Open;Output;Write,103
+export to HTML.xlsm,KEEP,,score 8,,Hex Strings;Open;Output;Print #;Write,90
+export to XML.xlsm,KEEP,,score 8,,Hex Strings;Open;Output;Print #;Write,64
+file information.xlsm,KEEP,,score 8,,Create;CreateObject;Hex Strings;Shell;Shell.Application,70
+Mailing a Single Sheet as an Attachment.xlsm,KEEP,,score 6,,ActiveWorkbook.SaveAs;Hex Strings;Kill;Open,66
+Mailing a Specific Range as Attachment.xlsm,KEEP,,score 6,,ActiveWorkbook.SaveAs;Hex Strings;Kill;Open,69
+emulate task pane.xlsm,KEEP,,score 5,RefreshIcon_Click;TitleLabel_MouseMove,Call;Create;Hex Strings;Lib,406
+key press.xlsm,KEEP,,score 5,CommandButton1_Click,Chr;Hex Strings;Lib,58
+modeless SDI.xlsm,KEEP,,score 5,CommandButton1_Click,FindWindow;Hex Strings;Lib,72
+multiple buttons.xlsm,KEEP,,score 5,ButtonGroup_Click,Base64 Strings;Command;Create;Hex Strings,77
+add to cell shortcut.xlsm,KEEP,,score 4,Workbook_BeforeClose;Workbook_Open,Base64 Strings;Call;Hex Strings,55
+drive information.xlsm,KEEP,,score 4,,Base64 Strings;Call;Hex Strings;Lib;Write,170
+file association.xlsm,KEEP,,score 4,,Hex Strings;Lib;shell32,44
+keyboard class.xlsm,KEEP,,score 4,,Base64 Strings;Hex Strings;Lib;system,165
+CHART COLORS.XLSM,KEEP,,score 2,,Create;Hex Strings,125
+DynamicDataConnection.xlsm,KEEP,,score 2,,Command;Hex Strings,79
+efficient looping.xlsm,KEEP,,score 2,,Create;Hex Strings,85
+EquipmentListSlicers.xlsm,KEEP,,score 2,,Hex Strings;windows,137
+extended date functions.xlsm,KEEP,,score 2,,Base64 Strings;Hex Strings;put,130
+loop vs array fill range.xlsm,KEEP,,score 2,,Hex Strings;Write,133
+Mailing All Email Addresses in Your Contact List.xlsm,KEEP,,score 2,,Hex Strings;Open,60
+ALL USERFORM CONTROLS.XLSM,KEEP,,score 1,UserForm_Click,Hex Strings,32
+application event tracker.xlsm,KEEP,,score 1,CancelButton_Click;objResizer_MouseMove,Call;Hex Strings,228
+CHANGE USERFORM SIZE.XLSM,KEEP,,score 1,OptionsButton_Click,Hex Strings,122
+chart active cell.xlsm,KEEP,,score 1,CheckBox1_Click,Call;Hex Strings,52
+CHART IMAGE MAP.XLSM,KEEP,,score 1,CheckBox1_Click,Base64 Strings;Hex Strings,101
+get name and sex.xlsm,MOVE_TO_POOL,,lower score 1,CommandButton1_Click,Base64 Strings;Hex Strings,66
+getacolor function.xlsm,MOVE_TO_POOL,,lower score 1,cmdCancel_Click;scbRed_Change,Base64 Strings;Hex Strings,127
+listbox multiple lists.xlsm,MOVE_TO_POOL,,lower score 1,optMonths_Click,Hex Strings,52
+listbox select rows.xlsm,MOVE_TO_POOL,,lower score 1,cmdAll_Click;lbxRange_Change,Hex Strings,91
+listbox selected items.xlsm,MOVE_TO_POOL,,lower score 1,optExtend_Click,Base64 Strings;Hex Strings,71
+listbox unique items1.xlsm,MOVE_TO_POOL,,lower score 1,OKButton_Click,Hex Strings,58
+make formulas bold.xlsm,MOVE_TO_POOL,,lower score 1,Worksheet_Change,Hex Strings,29
+mouseover event - chart sheet.xlsm,MOVE_TO_POOL,,lower score 1,Chart_MouseMove,Base64 Strings;Hex Strings,50
+ABOUT RANGE SELECTION.XLSM,MOVE_TO_POOL,,lower score 0,,Base64 Strings;Hex Strings,114
+ANIMATED CHARTS.XLSM,MOVE_TO_POOL,,lower score 0,,Base64 Strings;Hex Strings,202
+ARRAY ARGUMENT.XLSM,MOVE_TO_POOL,,lower score 0,,Hex Strings,39
+CELLTYPE FUNCTION.XLSM,MOVE_TO_POOL,,lower score 0,,Base64 Strings;Hex Strings,46
+duplicate rows.xlsm,MOVE_TO_POOL,,lower score 0,,Hex Strings,30
+dynamicmenu.xlsm,MOVE_TO_POOL,,lower score 0,,Call;Hex Strings,86
+EquipmentListPivot.xlsm,MOVE_TO_POOL,,lower score 0,,Hex Strings,93
+file functions.xlsm,MOVE_TO_POOL,,lower score 0,,Hex Strings,29
+get directory.xlsm,MOVE_TO_POOL,,lower score 0,,Base64 Strings;Hex Strings,33
+get series ranges.xlsm,MOVE_TO_POOL,,lower score 0,,Base64 Strings;Hex Strings,259
+list add-in information.xlsm,MOVE_TO_POOL,,lower score 0,,Base64 Strings;Hex Strings,43
+message box examples.xlsm,MOVE_TO_POOL,,lower score 0,,Hex Strings,69
+month names.xlsm,MOVE_TO_POOL,,lower score 0,,Hex Strings,39
+Chapter 2 Sample.xlsm,MOVE_TO_POOL,,no VBA code,,,0
+ApplicationEventTracker.xlsm,MOVE_TO_POOL,,older version of application event tracker.xlsm,CancelButton_Click;objResizer_MouseMove,Call;Hex Strings,248

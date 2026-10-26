@@ -1,0 +1,2602 @@
+{
+ "meta": {
+  "created": "2026-10-25",
+  "seed": 20261025,
+  "method": "group-aware 50/50 split: whole similarity groups assigned to one side, greedily balancing (label, format) counts; malicious grouped by ssdeep>=50 single-linkage on MalwareBazaar ssdeep; clean grouped by version family (filename stem). Built from labels/formats/similarity only, before any post-fix run.",
+  "n": 324
+ },
+ "samples": [
+  {
+   "sha256": "3e948156982617f727aa9d68e1ce55b225e8a495a127f2b12ade6719dd1a2c71",
+   "filename": "10.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:10",
+   "split": "test"
+  },
+  {
+   "sha256": "f2b328ad80582cf5f40ebc79ba974b7e65b510587f3ebf4ddef600686caf83cf",
+   "filename": "2F73J4NP2YHKVISKHDIDJ7RGPDKTQZ7D.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:2f73j4np2yhkviskhdidj7rgpdktqz7d",
+   "split": "dev"
+  },
+  {
+   "sha256": "6912e116340dcfeaa5495f2d8322c25dfad56cbeee005bc3082f457b5a79aac3",
+   "filename": "3ZVA64MJREBJXFOQOIXK6WJVPBWFJF7L.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:3zva64mjrebjxfoqoixk6wjvpbwfjf7l",
+   "split": "dev"
+  },
+  {
+   "sha256": "71aafb3627b5f8a64a73dd972d33fb829e1b38c82a51ee2a6ded22bc1af12719",
+   "filename": "44CC3S6FHPO5OFLW26RYVMNN3CLMBFU5.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:44cc3s6fhpo5oflw26ryvmnn3clmbfu5",
+   "split": "test"
+  },
+  {
+   "sha256": "1ee32f7e0f9bf610d668fb00a4526e88977b90c08e18d68415d637e9500fb57f",
+   "filename": "4JIOYSGO26FIUJU47G4MCVYSZUGX7EAE.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:4jioysgo26fiuju47g4mcvyszugx7eae",
+   "split": "dev"
+  },
+  {
+   "sha256": "29c53865bd62a0bd734524d00357f01766ff43705c12b9133ab9f9e87fc1806f",
+   "filename": "5F7F36M3NZCHDTIFIVI5JQRBDYNY6KJL.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:5f7f36m3nzchdtifivi5jqrbdyny6kjl",
+   "split": "test"
+  },
+  {
+   "sha256": "758ca80cc400030ed94ad1dc93e67f926eb414967f8576a058be99b988d355f2",
+   "filename": "65VH6VWWJJCZNGG3XTA7XAPZRAIOGYEV.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:65vh6vwwjjczngg3xta7xapzraiogyev",
+   "split": "dev"
+  },
+  {
+   "sha256": "6e3be7bd21ed826cbce269965e6fa1ecbd276ac6b15318646125a5800d595907",
+   "filename": "7YLE2QQTJK2HP5N2PUSAA3IKH662U3Y6.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:7yle2qqtjk2hp5n2pusaa3ikh662u3y6",
+   "split": "dev"
+  },
+  {
+   "sha256": "7a6a37c61f17864e0604a91ba983820a7ded78597a8f1a439097351c59327220",
+   "filename": "Art and Creativity.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:art and creativity",
+   "split": "test"
+  },
+  {
+   "sha256": "b7631cc677656ca92d105ea7e14b3cf5d37142ff4b9894de4d226b8c8ac26daa",
+   "filename": "BLQYONKYGPSK7RW76LOAUDZGQXB634CT.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:blqyonkygpsk7rw76loaudzgqxb634ct",
+   "split": "test"
+  },
+  {
+   "sha256": "29a1cbea4bad003ebf3145addaaf2df41158b3fb3f0ded01906e4bcca255957b",
+   "filename": "CEANMN5G6I4ISNFSTYEX44YCLQ52GWCV.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:ceanmn5g6i4isnfstyex44yclq52gwcv",
+   "split": "dev"
+  },
+  {
+   "sha256": "100eb167b6db2d06814319c8e3cdf3dc57a63fe2a563106a4cfc733019ea0fbd",
+   "filename": "CUHGX5XRCG2IOBFKZJO73RCWRBGZTE3J.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:cuhgx5xrcg2iobfkzjo73rcwrbgzte3j",
+   "split": "dev"
+  },
+  {
+   "sha256": "07ab87d9d8e87371a04bdf9547749de2377235e3418382ad594036907d04d695",
+   "filename": "DY75VBIKWAL76NRMMVFOYFQ52DB77TEI.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:dy75vbikwal76nrmmvfoyfq52db77tei",
+   "split": "test"
+  },
+  {
+   "sha256": "9631796be3a86a3561cbe6bafc1a94f1a5e0cff19c3529222e91bd20bd65e715",
+   "filename": "Data Bleanding File Two.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:data bleanding file two",
+   "split": "test"
+  },
+  {
+   "sha256": "228134f5be0df54a35c03bd0116589dcc8cd1db0349c3c8f15e4fa4305a06a92",
+   "filename": "ES5LDB5OV2PKIMVD3Z72CVQK4RSDBYJI.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:es5ldb5ov2pkimvd3z72cvqk4rsdbyji",
+   "split": "dev"
+  },
+  {
+   "sha256": "e88161947dc15842bb4f2a27790455b6f0450283b8e0e2b41779d5c2440597fc",
+   "filename": "FGW25YJCHKX5V4CGB447WS3CQP2ZVRDY.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:fgw25yjchkx5v4cgb447ws3cqp2zvrdy",
+   "split": "test"
+  },
+  {
+   "sha256": "9591354723794d48f708fc28f9c3af35043816f428250151e4288ecb1542ed4d",
+   "filename": "IUJCXHJGQ5XTDLV3CYTCTXLPD77RUA2P.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:iujcxhjgq5xtdlv3cytctxlpd77rua2p",
+   "split": "dev"
+  },
+  {
+   "sha256": "a73de9cdc9e2da328f7a50e6b2af96901a8694b0fb691bebc6ba8c422ce293f6",
+   "filename": "JQTLTBNFMLOTJNAZWAJGUYXUWJ42X5WM.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:jqtltbnfmlotjnazwajguyxuwj42x5wm",
+   "split": "dev"
+  },
+  {
+   "sha256": "d89dd9881917b0688596f1b96c3133ad3652cd31cff83b04395dfe53c5361d6f",
+   "filename": "List.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:list",
+   "split": "dev"
+  },
+  {
+   "sha256": "cd52b34157499fb3169e727faa882f0169fd69e88758906e0c46385a79e7f230",
+   "filename": "Lonely planets.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:lonely planets",
+   "split": "dev"
+  },
+  {
+   "sha256": "19641581ceeae7ccd425ef03254f33a99182f32ee5c21a84db3b147b4d907367",
+   "filename": "M24UMO5XAGV75HSW66Z2E3N6772MB2SW.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:m24umo5xagv75hsw66z2e3n6772mb2sw",
+   "split": "test"
+  },
+  {
+   "sha256": "d6dd0931cf1957fab1509d9393c6b7b2cd10835cccf02ed71fc44abc72ce889c",
+   "filename": "Meeting_Minutes_8.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:meeting_minutes_8",
+   "split": "test"
+  },
+  {
+   "sha256": "58c7f9f6ef22e99e64acef7297a6796b40f14e116cf341ec7539d75285ed9ecb",
+   "filename": "Mindfullness.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:mindfullness",
+   "split": "dev"
+  },
+  {
+   "sha256": "6382daaf945072ff28ce847194ac3d9e5d910dcb1f498499d16c3e13850f1bc1",
+   "filename": "Music.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:music",
+   "split": "dev"
+  },
+  {
+   "sha256": "14b69fefcd28aaa6d300e2d7187503f1aee657956370fd12e4a6adb36b547433",
+   "filename": "OE6BMOWZLGKSJUHP5BN2KHW6DEYTYGUZ.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:oe6bmowzlgksjuhp5bn2khw6deytyguz",
+   "split": "dev"
+  },
+  {
+   "sha256": "a99d7f956d64318bf5cb1438b241a9da83c7fe22c030e9509bea62da7fa413a9",
+   "filename": "Penetration Testing.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:penetration testing",
+   "split": "dev"
+  },
+  {
+   "sha256": "19a9c33895c5aa862338d64027ec56265fd8b9ce76b025d0f7b27f6bde21bb5b",
+   "filename": "R6LHWCGK5EOQHHR7EXRI7ZJLBG2R5QOF.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:r6lhwcgk5eoqhhr7exri7zjlbg2r5qof",
+   "split": "test"
+  },
+  {
+   "sha256": "3820a24e77fb5e0341e390dd8cc908cd9390063349b928e3a9d224263ed5dcab",
+   "filename": "Trusted Sources for Clean Documents.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:trusted sources for clean documents",
+   "split": "dev"
+  },
+  {
+   "sha256": "35b555ef995800fe8ea69e99cc6b37f966f68d87b408e2d785ce18f82c7ecc62",
+   "filename": "PPspliT.pptm",
+   "label": "clean",
+   "format": "pptm",
+   "group": "cln:ppsplit",
+   "split": "test"
+  },
+  {
+   "sha256": "e7ed595ea18f48193cf1f1f3fb42ffde3206a3c194ca8a5000e583e340116cbf",
+   "filename": "Presentation_1.pptx",
+   "label": "clean",
+   "format": "pptx",
+   "group": "cln:presentation_1",
+   "split": "test"
+  },
+  {
+   "sha256": "19b6c125a94223691cfee729e2894fe620de4d5f8cc6e26e59903ec5412a173b",
+   "filename": "Presentation_2.pptx",
+   "label": "clean",
+   "format": "pptx",
+   "group": "cln:presentation_2",
+   "split": "test"
+  },
+  {
+   "sha256": "b183c9c1b73ce37c40a962f3fa466d82c4fa9ba1df29288978a1fe06284e638f",
+   "filename": "Presentation_4.pptx",
+   "label": "clean",
+   "format": "pptx",
+   "group": "cln:presentation_4",
+   "split": "dev"
+  },
+  {
+   "sha256": "0472304fa3998d0b480bf12d22291858d4e64d91fd1b8e1b89c129f03937aa60",
+   "filename": "Presentation_50.pptx",
+   "label": "clean",
+   "format": "pptx",
+   "group": "cln:presentation_50",
+   "split": "test"
+  },
+  {
+   "sha256": "a40ff02c557fbedff11c795fb2c047490e0f16744143e9e1eb044367c7321092",
+   "filename": "Presentation_54.pptx",
+   "label": "clean",
+   "format": "pptx",
+   "group": "cln:presentation_54",
+   "split": "dev"
+  },
+  {
+   "sha256": "294b792d650ba205b7ecf516abae8be3e34246d9b23c86907a54ed71587de9d2",
+   "filename": "Presentation_55.pptx",
+   "label": "clean",
+   "format": "pptx",
+   "group": "cln:presentation_55",
+   "split": "test"
+  },
+  {
+   "sha256": "0a7536cf980fa875ec748812eb0f4c148fdf369ee0f559bf80547fa55769b558",
+   "filename": "Presentation_57.pptx",
+   "label": "clean",
+   "format": "pptx",
+   "group": "cln:presentation_57",
+   "split": "dev"
+  },
+  {
+   "sha256": "cf579303f5327917bc98820911f4d88c2a023482ee16e00c75742343be17e2ac",
+   "filename": "Presentation_78.pptx",
+   "label": "clean",
+   "format": "pptx",
+   "group": "cln:presentation_78",
+   "split": "dev"
+  },
+  {
+   "sha256": "37c5e4995ed117d7843a3c62d1101c716383c11af87400d02c84c2c33646d2cc",
+   "filename": "Training_Presentation_6.pptx",
+   "label": "clean",
+   "format": "pptx",
+   "group": "cln:training_presentation_6",
+   "split": "dev"
+  },
+  {
+   "sha256": "270b351d0386cd96ca1460b24ddc1afae63a223a0ee9c9eeb10c362b754aa359",
+   "filename": "ADD 100 BUTTONS.XLSM",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:add 100 buttons",
+   "split": "dev"
+  },
+  {
+   "sha256": "64c4f018f58cf7283c0763c25171b1e6a48c1de0bbb4f9ce96478b366eeb0cd2",
+   "filename": "ADD BUTTON AND CODE.XLSM",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:add button and code",
+   "split": "test"
+  },
+  {
+   "sha256": "35b76fd1fd2bc39296c467e24d21cc439778e2bd1848491ae123dbea1c7f775b",
+   "filename": "CHART COLORS.XLSM",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:chart colors",
+   "split": "test"
+  },
+  {
+   "sha256": "fc860ec6cfbe896cc476094be8c651c0fbcf3ee602f85fcda21874e424458e8d",
+   "filename": "CHART IMAGE MAP.XLSM",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:chart image map",
+   "split": "dev"
+  },
+  {
+   "sha256": "ade71e6187036710ca5f3cfe71c86dbd7225497d7d3a4060f5bec1b867afdfa5",
+   "filename": "EquipmentListSlicers.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:equipmentlistslicers",
+   "split": "dev"
+  },
+  {
+   "sha256": "ca610a32658ca3a6ea22d6281a03486c71ff6b0b085b816f1e9006236d95cbe6",
+   "filename": "MYFUNCS.XLSM",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:myfuncs",
+   "split": "dev"
+  },
+  {
+   "sha256": "6ddff4075c77e2425ba5a9220a3f916579f2ca73739fed05b57c598258f0cca7",
+   "filename": "Mailing All Email Addresses in Your Contact List.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:mailing all email addresses in your contact list",
+   "split": "test"
+  },
+  {
+   "sha256": "8d97620e0b988b3ab1f7a5720fa09c20789f56c9ea9d4d62e6a10b6a5bae9d89",
+   "filename": "Mailing a Specific Range as Attachment.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:mailing a specific range as attachment",
+   "split": "test"
+  },
+  {
+   "sha256": "a609537eaaf128a8593450f2d2e5e6c6315b7f2d1036a3d8df0f4fd68855a295",
+   "filename": "Practice_Excel21.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:practice_excel21",
+   "split": "dev"
+  },
+  {
+   "sha256": "5d3adebf45867f43a7ae8a3c1b4ec1e3700e69c4e2c9405f3edd8d7a76791924",
+   "filename": "Practice_Excel26.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:practice_excel26",
+   "split": "dev"
+  },
+  {
+   "sha256": "a142e5a72511a5e83e782f21c30e7bc01d8c4e9fe2e394d68bb0fc7a24244aea",
+   "filename": "Practice_WorkbookEvents.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:practice_workbookevents",
+   "split": "test"
+  },
+  {
+   "sha256": "8a21cf6434e809159c9470ec65afa34444c7a91036b9ef9e7dfd2c45bc59ecea",
+   "filename": "Practice_WorksheetEvents.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:practice_worksheetevents",
+   "split": "dev"
+  },
+  {
+   "sha256": "b100fae2994704602576bf54415cf5a8aa162bdfd054cc3ae323996252516915",
+   "filename": "add to cell shortcut.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:add to cell shortcut",
+   "split": "dev"
+  },
+  {
+   "sha256": "98af84e67dd153d173a128ae0dbc8e5f18c92daa307216db493d51d5c4ead3a8",
+   "filename": "context-sensitive shortcut menu.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:context-sensitive shortcut menu",
+   "split": "test"
+  },
+  {
+   "sha256": "5adf0e7277dfe853f390b8ffc06a09737eeca697905d7767a877396b71977ebb",
+   "filename": "efficient looping.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:efficient looping",
+   "split": "dev"
+  },
+  {
+   "sha256": "5783e983d3692429bacf5f9c300a45e55a691bd543ade65bf40e2502d757f7ad",
+   "filename": "export and import csv.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:export and import csv",
+   "split": "test"
+  },
+  {
+   "sha256": "1eb17f9f0efe79e1d3c51849d4492feef18eec6c0c312f89369b414cc22a14a2",
+   "filename": "export charts.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:export charts",
+   "split": "test"
+  },
+  {
+   "sha256": "71305bfb2f5f15874c65b24180bb7d413f8abade5e3c4ef5ae423caca529e66e",
+   "filename": "export to XML.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:export to xml",
+   "split": "test"
+  },
+  {
+   "sha256": "a94a3d88da05fb6e6e280a983e9b1230883427080059a87d595ccc49b9fdc65d",
+   "filename": "file association.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:file association",
+   "split": "dev"
+  },
+  {
+   "sha256": "647ee6a5c7217ed2e1097341d4c58082c816ca44212b605ba0f13f418d63f643",
+   "filename": "getoption function.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:getoption function",
+   "split": "test"
+  },
+  {
+   "sha256": "c0430b56c3a0af2f856e4b4b418d1a7c14b5c35acfa5213484b5fe25d6c18a1f",
+   "filename": "keyboard class.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:keyboard class",
+   "split": "test"
+  },
+  {
+   "sha256": "3fd6c836e3b95b1d52e0a2f8e148685e8719e17934f59cfe781f0a290a58eaf4",
+   "filename": "list all procedures.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:list all procedures",
+   "split": "dev"
+  },
+  {
+   "sha256": "d59fd3d436295527bc99d59bead27472b58e2570098764370ddf8480b24aae67",
+   "filename": "log workbook open.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:log workbook open",
+   "split": "dev"
+  },
+  {
+   "sha256": "a7d1ddf049268c2717ec1570cd08f198d06ba15ab108b908bab8bd67ac4331cf",
+   "filename": "loop vs array fill range.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:loop vs array fill range",
+   "split": "dev"
+  },
+  {
+   "sha256": "61e55b771cedd82d891d1fb0e1f5ad9d2b76f4d6a5fb57a0850fec6048a04ed3",
+   "filename": "modeless SDI.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:modeless sdi",
+   "split": "dev"
+  },
+  {
+   "sha256": "d88de1ce7fe29f77c66c816a84e90fc70776fe8a2116dc30c5234ef8a4d79e22",
+   "filename": "no shortcut menus.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:no shortcut menus",
+   "split": "test"
+  },
+  {
+   "sha256": "0ab231313f0cfa4b3f9da5a90f8467d0a58f68ecc919c06ddc1b01dd642444d0",
+   "filename": "old-style toolbar.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:old-style toolbar",
+   "split": "dev"
+  },
+  {
+   "sha256": "c5f1a41c6548f6fe947ac1015eafa07509820ed08d8f1b3fa7f25ffbbd1599e3",
+   "filename": "query table events complete.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:query table events complete",
+   "split": "dev"
+  },
+  {
+   "sha256": "9949fd1975c5649075f9f61b63ef397539e0e5a39c7c7a5cf3d6e1750397e696",
+   "filename": "Breast.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:breast",
+   "split": "dev"
+  },
+  {
+   "sha256": "f08765fd843ee0519d32e5e0e17b90df14758a96747ff3d9d18885683b6c4938",
+   "filename": "Difficult vs Easy SciHUB 3-6-21.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:difficult vs easy scihub 3-6-21",
+   "split": "test"
+  },
+  {
+   "sha256": "bc79cffb4d9183eef49559c8effa0da1f2db2c84b819b794f68ee614db2bf2ca",
+   "filename": "HydrolysisActivationEnergy_est6b05412.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:hydrolysisactivationenergy_est6b05412",
+   "split": "dev"
+  },
+  {
+   "sha256": "9738a1e05d98e4094b1631ea8ce2f0340c5c2588e7bbacf04c1aa9965e72e203",
+   "filename": "MagnusonMatthew_A-0zpn_dataset_20210203.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:magnusonmatthew_a-0zpn_dataset_20210203",
+   "split": "test"
+  },
+  {
+   "sha256": "ee50ac13e47bf70a1f29ac5fa77ef59abe89009c22897430386a8420e91e218c",
+   "filename": "MagnusonMatthew_A-ht7r_dataset_20181023.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:magnusonmatthew_a-ht7r_dataset_20181023",
+   "split": "dev"
+  },
+  {
+   "sha256": "b210f62734d57aea85757cd3e11f103c82edfd1f1164dbe63fbd20fe1bc77cc1",
+   "filename": "Male_reproductive_data_summary_and_glossary_508.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:male_reproductive_data_summary_and_glossary_508",
+   "split": "test"
+  },
+  {
+   "sha256": "87abc06b9044d70017b9f6ac66fb6d4b6b2896b8bab813d9843ede2632afb48b",
+   "filename": "PROPS-CLF_results_May30_2019.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:props-clf_results_may30_2019",
+   "split": "dev"
+  },
+  {
+   "sha256": "caf1d27c7c15450240dca320555667f786c51cc68d6d80fb130dc0c091d6cb62",
+   "filename": "Permuted_ordinal_PS_data_summary_and_glossary_508.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:permuted_ordinal_ps_data_summary_and_glossary_508",
+   "split": "dev"
+  },
+  {
+   "sha256": "ed171a480688dfcd542e01ff4451e5cc6dd1867b7c5e7a3be776f77459d5b665",
+   "filename": "Rumsey and Walker_AMT_2016_Figure 1.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:rumsey and walker_amt_2016_figure 1",
+   "split": "dev"
+  },
+  {
+   "sha256": "af6a2c891971e481b942358b06bae4143d5ae888b7451d458bef3b9bd92fcc8e",
+   "filename": "SHB_SuppTable3.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:shb_supptable3",
+   "split": "test"
+  },
+  {
+   "sha256": "6b1ee782d955b4358e8656b2a3da27a392b060ba7e1d1aca873e923e98afb54e",
+   "filename": "UEFW-ConstructedWetlands_MSDataFile_17Jul2023.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:uefw-constructedwetlands_msdatafile_17jul2023",
+   "split": "test"
+  },
+  {
+   "sha256": "f91aaeba6a90939bed08ccdbc63226ccb0fd611bcd56b55ac11b86515af96a2d",
+   "filename": "bestsellers-with-categories.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:bestsellers-with-categories",
+   "split": "dev"
+  },
+  {
+   "sha256": "3f83b2df7bed58dda0f8928882f949f6b2dcb58d375acd568e030b4a6cfd47c2",
+   "filename": "iris.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:iris",
+   "split": "test"
+  },
+  {
+   "sha256": "19a7728c4b4ed2fc51e0a46da623a78c2389f4350407f29658c384475a8bcb46",
+   "filename": "19a7728c4b4ed2fc51e0a46da623a78c2389f4350407f29658c384475a8bcb46.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "2a94c09245788e2ee0df6ad67a64286e85baf479127441867e82e881ee05fd28",
+   "filename": "2a94c09245788e2ee0df6ad67a64286e85baf479127441867e82e881ee05fd28.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "2ad6ca5c2471a53baebf2d1735ff9fbfe5d6a76d963e990d75098f66cf668257",
+   "filename": "2ad6ca5c2471a53baebf2d1735ff9fbfe5d6a76d963e990d75098f66cf668257.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "2f1c0fa40c9bc6f4b34ff410e68a33868052967855d207a9ab65fa3623a7b2ab",
+   "filename": "2f1c0fa40c9bc6f4b34ff410e68a33868052967855d207a9ab65fa3623a7b2ab.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "31e7ddc5e0da4a829a01e968d96a6fd568b16bb5c6177dccfa5d9ae91917433f",
+   "filename": "31e7ddc5e0da4a829a01e968d96a6fd568b16bb5c6177dccfa5d9ae91917433f.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "4efe3ebdbf79630bda1a3f0280d637613f9fd03f65773a9fa1d1fca183a61590",
+   "filename": "4efe3ebdbf79630bda1a3f0280d637613f9fd03f65773a9fa1d1fca183a61590.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "51aae172a88c1a03ee09b0bf8e2091d5279211fb1e79bb77a1013d34808b6b1f",
+   "filename": "51aae172a88c1a03ee09b0bf8e2091d5279211fb1e79bb77a1013d34808b6b1f.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "5762f2a4287e3015b2264f5b59c2e34caffa9ce95e1f282f48b72250b6abc435",
+   "filename": "5762f2a4287e3015b2264f5b59c2e34caffa9ce95e1f282f48b72250b6abc435.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "688b06d43afeb58335fab830767498eb23403d169f848ca08c27605d80027b85",
+   "filename": "688b06d43afeb58335fab830767498eb23403d169f848ca08c27605d80027b85.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "6cf095b62941364c1e3946ed7f2d509e7d0c85cadf855635b1f9fa77e67af424",
+   "filename": "6cf095b62941364c1e3946ed7f2d509e7d0c85cadf855635b1f9fa77e67af424.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "6ff952e61e8f515a3d98596fd8bed1108eefb7c3d174c6ac3d6099b97c7a1298",
+   "filename": "6ff952e61e8f515a3d98596fd8bed1108eefb7c3d174c6ac3d6099b97c7a1298.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "71b906576bc6809759b059d50c843f86d57cfcc44c9b54f07256a7e9b09f472e",
+   "filename": "71b906576bc6809759b059d50c843f86d57cfcc44c9b54f07256a7e9b09f472e.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "7628a59272d7779b815ea24c836f19581ae28e75fd6d1b6598ef81d0d2e4e913",
+   "filename": "7628a59272d7779b815ea24c836f19581ae28e75fd6d1b6598ef81d0d2e4e913.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:7628a59272d7",
+   "split": "dev"
+  },
+  {
+   "sha256": "78a4d7ad355cc8220df2f267128f8811f6df0a42e8e1169f7f12c20f203ab8c0",
+   "filename": "78a4d7ad355cc8220df2f267128f8811f6df0a42e8e1169f7f12c20f203ab8c0.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "9e71d743c8956c70477961452c921d0594d982494161ff8b7be1d8c45dc9626e",
+   "filename": "9e71d743c8956c70477961452c921d0594d982494161ff8b7be1d8c45dc9626e.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "a6972eeb206d4dcfc2145076ac8f1054df124c288ecf8ceaecb76f1ff3f541f9",
+   "filename": "a6972eeb206d4dcfc2145076ac8f1054df124c288ecf8ceaecb76f1ff3f541f9.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "ac39ac04e808d8c9b082d79b33a9c1306e587593499c468f0e13b42e222dc76d",
+   "filename": "ac39ac04e808d8c9b082d79b33a9c1306e587593499c468f0e13b42e222dc76d.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "ada1dd0f7e4fdb853b5272f38875b80988a8cd6335e3cbdda0b17bb0acaa314f",
+   "filename": "ada1dd0f7e4fdb853b5272f38875b80988a8cd6335e3cbdda0b17bb0acaa314f.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "ae70cc1da5355ada8c1c11678d101464c6b863cc02c603fb1597b54efd4223e5",
+   "filename": "ae70cc1da5355ada8c1c11678d101464c6b863cc02c603fb1597b54efd4223e5.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "c7073b7fc18b3ec20e476a7375e2a6695d273f671917a6627430e59534d3a138",
+   "filename": "c7073b7fc18b3ec20e476a7375e2a6695d273f671917a6627430e59534d3a138.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:c7073b7fc18b",
+   "split": "test"
+  },
+  {
+   "sha256": "cb7e494eec2499017f80e1352915fa837fff394f04df860f1e622c0fe5f858ae",
+   "filename": "cb7e494eec2499017f80e1352915fa837fff394f04df860f1e622c0fe5f858ae.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "cccd4d072383aef7450faf4f64bb44717ea8270a61f40657b36484283448b7b4",
+   "filename": "cccd4d072383aef7450faf4f64bb44717ea8270a61f40657b36484283448b7b4.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:cccd4d072383",
+   "split": "dev"
+  },
+  {
+   "sha256": "cdc7c2d40b1e404f7ad949349b0763ee8ea2038afd21ecd6c5285e3e73912297",
+   "filename": "cdc7c2d40b1e404f7ad949349b0763ee8ea2038afd21ecd6c5285e3e73912297.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "d00544cef451b7c386bf2b5ffa29b9735e4818cabf5e94d087e14fb3e4f8b75f",
+   "filename": "d00544cef451b7c386bf2b5ffa29b9735e4818cabf5e94d087e14fb3e4f8b75f.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "d971bdffce34b86821685cfd67099d74fa595b8b90932c888e08017a49e8acb6",
+   "filename": "d971bdffce34b86821685cfd67099d74fa595b8b90932c888e08017a49e8acb6.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "dcf6fd6d07ff8c383fe41830deb03d4c829376b9c065e3c4b40f149c04bf4d2d",
+   "filename": "dcf6fd6d07ff8c383fe41830deb03d4c829376b9c065e3c4b40f149c04bf4d2d.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "e31a6cc18a18d9928f37accef9c30c5e644a112d8469675c22c3f49a1c363d21",
+   "filename": "e31a6cc18a18d9928f37accef9c30c5e644a112d8469675c22c3f49a1c363d21.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:e31a6cc18a18",
+   "split": "test"
+  },
+  {
+   "sha256": "f6051498dc45e053a9edab00f35873c74ecdb2beb450962e3a4b946c2529a4c2",
+   "filename": "f6051498dc45e053a9edab00f35873c74ecdb2beb450962e3a4b946c2529a4c2.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:f6051498dc45",
+   "split": "test"
+  },
+  {
+   "sha256": "27da6700c02c2170a0ae42e4a94a85da6df779f8fbbe2073dd3c30be141ce58d",
+   "filename": "27da6700c02c2170a0ae42e4a94a85da6df779f8fbbe2073dd3c30be141ce58d.pptm",
+   "label": "malicious",
+   "format": "pptm",
+   "group": "mal:27da6700c02c",
+   "split": "test"
+  },
+  {
+   "sha256": "2f5d740a41646c06e1013815deb1d519c619636220758a53773d15b1b66616b0",
+   "filename": "2f5d740a41646c06e1013815deb1d519c619636220758a53773d15b1b66616b0.pptm",
+   "label": "malicious",
+   "format": "pptm",
+   "group": "mal:2f5d740a4164",
+   "split": "test"
+  },
+  {
+   "sha256": "a18cf82629b73be23a676e941a5bb0faf7e69eb56db92d3799e1275cee8767e5",
+   "filename": "a18cf82629b73be23a676e941a5bb0faf7e69eb56db92d3799e1275cee8767e5.pptm",
+   "label": "malicious",
+   "format": "pptm",
+   "group": "mal:a18cf82629b7",
+   "split": "test"
+  },
+  {
+   "sha256": "c17dd1bbce902d04fa8f4b45e0c965d16a8b2f203d2f5d720027eac255ccaf6f",
+   "filename": "c17dd1bbce902d04fa8f4b45e0c965d16a8b2f203d2f5d720027eac255ccaf6f.pptm",
+   "label": "malicious",
+   "format": "pptm",
+   "group": "mal:c17dd1bbce90",
+   "split": "test"
+  },
+  {
+   "sha256": "2d5930c41948678f9b0299203fe97c2eaa457a7b23fff22ba0e8a6aa5b095422",
+   "filename": "2d5930c41948678f9b0299203fe97c2eaa457a7b23fff22ba0e8a6aa5b095422.pptx",
+   "label": "malicious",
+   "format": "pptx",
+   "group": "mal:2d5930c41948",
+   "split": "test"
+  },
+  {
+   "sha256": "3fff8c76c530309455efdd96043378112a86341ca32aa732a5ef7605bbd7d461",
+   "filename": "3fff8c76c530309455efdd96043378112a86341ca32aa732a5ef7605bbd7d461.pptx",
+   "label": "malicious",
+   "format": "pptx",
+   "group": "mal:3fff8c76c530",
+   "split": "test"
+  },
+  {
+   "sha256": "4dd75e9c997abbb78aff675a28039b49ed7ebbfc2d97a4e378f7fd0d03d7e2fd",
+   "filename": "4dd75e9c997abbb78aff675a28039b49ed7ebbfc2d97a4e378f7fd0d03d7e2fd.pptx",
+   "label": "malicious",
+   "format": "pptx",
+   "group": "mal:92779228416f",
+   "split": "dev"
+  },
+  {
+   "sha256": "7e6aaa62831f2c2d26fbd3af7a7650fced824eb60c8dcbb85bb61c25a9614674",
+   "filename": "7e6aaa62831f2c2d26fbd3af7a7650fced824eb60c8dcbb85bb61c25a9614674.pptx",
+   "label": "malicious",
+   "format": "pptx",
+   "group": "mal:7e6aaa62831f",
+   "split": "dev"
+  },
+  {
+   "sha256": "92779228416f0dce42fd4e3d1ead5cfaecf563694391c01f421c53edd773b72e",
+   "filename": "92779228416f0dce42fd4e3d1ead5cfaecf563694391c01f421c53edd773b72e.pptx",
+   "label": "malicious",
+   "format": "pptx",
+   "group": "mal:92779228416f",
+   "split": "dev"
+  },
+  {
+   "sha256": "a47b6c802f9a12797e26acc795cd4893ee71853f5c4c93411a53b362bd845b1c",
+   "filename": "a47b6c802f9a12797e26acc795cd4893ee71853f5c4c93411a53b362bd845b1c.pptx",
+   "label": "malicious",
+   "format": "pptx",
+   "group": "mal:a47b6c802f9a",
+   "split": "test"
+  },
+  {
+   "sha256": "b206ac5443480cdf5dfec41a5ff725efa5aa550251c908f1309f848d0ce57600",
+   "filename": "b206ac5443480cdf5dfec41a5ff725efa5aa550251c908f1309f848d0ce57600.pptx",
+   "label": "malicious",
+   "format": "pptx",
+   "group": "mal:b206ac544348",
+   "split": "test"
+  },
+  {
+   "sha256": "d053d5f0d7f4913f4c4e950ba9d19c0bed200add50a1e82f18e86e7c1a4bf925",
+   "filename": "d053d5f0d7f4913f4c4e950ba9d19c0bed200add50a1e82f18e86e7c1a4bf925.pptx",
+   "label": "malicious",
+   "format": "pptx",
+   "group": "mal:d053d5f0d7f4",
+   "split": "dev"
+  },
+  {
+   "sha256": "f1f6c2f589e7fefc7efb70dfda615f6560e5a237d544ae83755fa1e9c81264e1",
+   "filename": "f1f6c2f589e7fefc7efb70dfda615f6560e5a237d544ae83755fa1e9c81264e1.pptx",
+   "label": "malicious",
+   "format": "pptx",
+   "group": "mal:f1f6c2f589e7",
+   "split": "dev"
+  },
+  {
+   "sha256": "0ceeef3996ad0c1a1b5762b79241c525088b0d8d35761e89ba07c01302906893",
+   "filename": "0ceeef3996ad0c1a1b5762b79241c525088b0d8d35761e89ba07c01302906893.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:0ceeef3996ad",
+   "split": "test"
+  },
+  {
+   "sha256": "0fc5ff7a76844fca91b902638fbaf2cd839d4f034c07ae66cdcb8a9b07223f2b",
+   "filename": "0fc5ff7a76844fca91b902638fbaf2cd839d4f034c07ae66cdcb8a9b07223f2b.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:0fc5ff7a7684",
+   "split": "test"
+  },
+  {
+   "sha256": "1062e96cd4361489d457085e7308d5c21c367d0f86a4cd5c92dd5325a6b0bc37",
+   "filename": "1062e96cd4361489d457085e7308d5c21c367d0f86a4cd5c92dd5325a6b0bc37.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:b69afd7a6708",
+   "split": "dev"
+  },
+  {
+   "sha256": "131affca15b692e8185165a571990c8626828ce0a8944acce645ddff557fe49b",
+   "filename": "131affca15b692e8185165a571990c8626828ce0a8944acce645ddff557fe49b.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:131affca15b6",
+   "split": "test"
+  },
+  {
+   "sha256": "2877c69b79d6087d714c6e31f0365e935400c25968aa085e3a55a8ed6d766987",
+   "filename": "2877c69b79d6087d714c6e31f0365e935400c25968aa085e3a55a8ed6d766987.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:2877c69b79d6",
+   "split": "dev"
+  },
+  {
+   "sha256": "29c3098dd8c8ae564e5315d07dfdf07a6dc43455dcfe844e74675a632ad29efe",
+   "filename": "29c3098dd8c8ae564e5315d07dfdf07a6dc43455dcfe844e74675a632ad29efe.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:29c3098dd8c8",
+   "split": "test"
+  },
+  {
+   "sha256": "33a26b8911b3aaa0373d8f4b941b91892bd165c9f9a56f38c83bec7917bcd3e1",
+   "filename": "33a26b8911b3aaa0373d8f4b941b91892bd165c9f9a56f38c83bec7917bcd3e1.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:33a26b8911b3",
+   "split": "dev"
+  },
+  {
+   "sha256": "3dcc673a854935ef98a19331d51622000a866396a430f81014795b9dca996a04",
+   "filename": "3dcc673a854935ef98a19331d51622000a866396a430f81014795b9dca996a04.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:3dcc673a8549",
+   "split": "dev"
+  },
+  {
+   "sha256": "4a763137ae907f2478ae4823431bf1bab8a80f6b0b26a18865f6731de6a0f308",
+   "filename": "4a763137ae907f2478ae4823431bf1bab8a80f6b0b26a18865f6731de6a0f308.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:94bae853353c",
+   "split": "test"
+  },
+  {
+   "sha256": "65bf1ccf1f2d94610c59feb1b21b41b58bd3a328be75cba2f063437889561a5b",
+   "filename": "65bf1ccf1f2d94610c59feb1b21b41b58bd3a328be75cba2f063437889561a5b.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:65bf1ccf1f2d",
+   "split": "test"
+  },
+  {
+   "sha256": "671015570338f52663157da906eb6f24e1f5298146f07d25b914af9795984ad4",
+   "filename": "671015570338f52663157da906eb6f24e1f5298146f07d25b914af9795984ad4.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:94bae853353c",
+   "split": "test"
+  },
+  {
+   "sha256": "78e776bddf86344f5bfc5bf8edc1abc511631a5cfd629444cd5c86916f4ca23f",
+   "filename": "78e776bddf86344f5bfc5bf8edc1abc511631a5cfd629444cd5c86916f4ca23f.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:a9bc2d1626eb",
+   "split": "dev"
+  },
+  {
+   "sha256": "7a7399f081d0da7477aa5c5308cd901885cb64655bc293d52496a504481ba584",
+   "filename": "7a7399f081d0da7477aa5c5308cd901885cb64655bc293d52496a504481ba584.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:7a7399f081d0",
+   "split": "dev"
+  },
+  {
+   "sha256": "8e9ce26efc6bfe9f15da163f7fe507eb4372589abd6ffec9489c712c6887f976",
+   "filename": "8e9ce26efc6bfe9f15da163f7fe507eb4372589abd6ffec9489c712c6887f976.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:a9bc2d1626eb",
+   "split": "dev"
+  },
+  {
+   "sha256": "91290bbc24fce32c528ef5d7a2d5a3b319539ac1d2c494d4d519327832c5e3d9",
+   "filename": "91290bbc24fce32c528ef5d7a2d5a3b319539ac1d2c494d4d519327832c5e3d9.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:a9bc2d1626eb",
+   "split": "dev"
+  },
+  {
+   "sha256": "95fae63a815946403be29f5136054d5529fc346f55648a3532e2fb9d54f6caec",
+   "filename": "95fae63a815946403be29f5136054d5529fc346f55648a3532e2fb9d54f6caec.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:a9bc2d1626eb",
+   "split": "dev"
+  },
+  {
+   "sha256": "9a1cbe337811b7a5f208bccf6122368622f5a4336441eac9431b5ecfcf2c1e1d",
+   "filename": "9a1cbe337811b7a5f208bccf6122368622f5a4336441eac9431b5ecfcf2c1e1d.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:9a1cbe337811",
+   "split": "dev"
+  },
+  {
+   "sha256": "9ae676416a3c62a27275c2c6f7a8cf5479b5820e01d9df682e77e4843a2c9fe6",
+   "filename": "9ae676416a3c62a27275c2c6f7a8cf5479b5820e01d9df682e77e4843a2c9fe6.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:a9bc2d1626eb",
+   "split": "dev"
+  },
+  {
+   "sha256": "9bcb28f084de4d90356a831cf1b185cb548ca66545e01df1080e8ee85afc0eb8",
+   "filename": "9bcb28f084de4d90356a831cf1b185cb548ca66545e01df1080e8ee85afc0eb8.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:b69afd7a6708",
+   "split": "dev"
+  },
+  {
+   "sha256": "9ddd6cf08cc248e84fab497f9f508c3a4277f7d8d500f8bf7d18d19fd1fd2faf",
+   "filename": "9ddd6cf08cc248e84fab497f9f508c3a4277f7d8d500f8bf7d18d19fd1fd2faf.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:9ddd6cf08cc2",
+   "split": "dev"
+  },
+  {
+   "sha256": "a02506468e632875a2c9c9c16e730b8bdc52f7450b28ee7bd8f5ac014b264e53",
+   "filename": "a02506468e632875a2c9c9c16e730b8bdc52f7450b28ee7bd8f5ac014b264e53.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:a02506468e63",
+   "split": "test"
+  },
+  {
+   "sha256": "a28a94d233dc2abee2820193addd10e93f1da99897765273026fdf4e6a47be2a",
+   "filename": "a28a94d233dc2abee2820193addd10e93f1da99897765273026fdf4e6a47be2a.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:a28a94d233dc",
+   "split": "dev"
+  },
+  {
+   "sha256": "a4e2cc092e0f56ef6440e899c6ee2a9f6580b3e29378b5d8f7418ccfd42bec6e",
+   "filename": "a4e2cc092e0f56ef6440e899c6ee2a9f6580b3e29378b5d8f7418ccfd42bec6e.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:a4e2cc092e0f",
+   "split": "dev"
+  },
+  {
+   "sha256": "a9bc2d1626eb464a4433b12fe4d01c1acc1721156e162a598e65e669d1d69f51",
+   "filename": "a9bc2d1626eb464a4433b12fe4d01c1acc1721156e162a598e65e669d1d69f51.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:a9bc2d1626eb",
+   "split": "dev"
+  },
+  {
+   "sha256": "b69afd7a6708b524dd8574d4090e167057c16343dbc13e2c8c83a8f0ba183737",
+   "filename": "b69afd7a6708b524dd8574d4090e167057c16343dbc13e2c8c83a8f0ba183737.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:b69afd7a6708",
+   "split": "dev"
+  },
+  {
+   "sha256": "bcacb9b88e19596912b0d0af4d5f2e884910cd84fef6af7448d203c4981e2eb6",
+   "filename": "bcacb9b88e19596912b0d0af4d5f2e884910cd84fef6af7448d203c4981e2eb6.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:bcacb9b88e19",
+   "split": "dev"
+  },
+  {
+   "sha256": "c1411c5ec14996d8bb146c2fa2a610dfe170ef2aac87814f499b3497529f0f3d",
+   "filename": "c1411c5ec14996d8bb146c2fa2a610dfe170ef2aac87814f499b3497529f0f3d.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:c1411c5ec149",
+   "split": "test"
+  },
+  {
+   "sha256": "ed03afe2e38d3b9af9762b6b0731d7f409261c36119d100b2eec7021a6bea8eb",
+   "filename": "ed03afe2e38d3b9af9762b6b0731d7f409261c36119d100b2eec7021a6bea8eb.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:ed03afe2e38d",
+   "split": "test"
+  },
+  {
+   "sha256": "06dc625ae496277fa65350786d3a1abb03198af71fe9e6170d2c58b15f1ffb01",
+   "filename": "06dc625ae496277fa65350786d3a1abb03198af71fe9e6170d2c58b15f1ffb01.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:545c2540511b",
+   "split": "dev"
+  },
+  {
+   "sha256": "2deb95b1fa7089f3cd1137d9d17b1a33566ff31e044d53963f74d61b085c623e",
+   "filename": "2deb95b1fa7089f3cd1137d9d17b1a33566ff31e044d53963f74d61b085c623e.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:545c2540511b",
+   "split": "dev"
+  },
+  {
+   "sha256": "38d3f5173827b3d7f213cb95de47e2087937eef5c9c3d48caf1dfb9098a063d4",
+   "filename": "38d3f5173827b3d7f213cb95de47e2087937eef5c9c3d48caf1dfb9098a063d4.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:f8f89535dd95",
+   "split": "test"
+  },
+  {
+   "sha256": "4050bae8f9dee7b537e89b6ca6cc14dc7a5cb9788acf72ea77370827cdea1a1f",
+   "filename": "4050bae8f9dee7b537e89b6ca6cc14dc7a5cb9788acf72ea77370827cdea1a1f.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:4050bae8f9de",
+   "split": "dev"
+  },
+  {
+   "sha256": "59e868574332d2aae75eef795596950f4c27d5b782b1a83853e66663077050ea",
+   "filename": "59e868574332d2aae75eef795596950f4c27d5b782b1a83853e66663077050ea.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:59e868574332",
+   "split": "dev"
+  },
+  {
+   "sha256": "5c8de7c3ff4d9ad542fe30c13e84cfe205122faefb6427cf7323298eb47ab0d3",
+   "filename": "5c8de7c3ff4d9ad542fe30c13e84cfe205122faefb6427cf7323298eb47ab0d3.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:5c8de7c3ff4d",
+   "split": "test"
+  },
+  {
+   "sha256": "5e99709d3967d57545d5e42a6f5be9fb4005988ea04642f53fa351cff0f16a13",
+   "filename": "5e99709d3967d57545d5e42a6f5be9fb4005988ea04642f53fa351cff0f16a13.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:5e99709d3967",
+   "split": "dev"
+  },
+  {
+   "sha256": "83c44b48121f7b79716fb6d0fdac68d9a3d38c832c15c1637ed0c3dfbaea471f",
+   "filename": "83c44b48121f7b79716fb6d0fdac68d9a3d38c832c15c1637ed0c3dfbaea471f.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:83c44b48121f",
+   "split": "dev"
+  },
+  {
+   "sha256": "a3e22155f561785a485206de87c68b4a1b15e2103202f0269fb6ac3f0cb661ea",
+   "filename": "a3e22155f561785a485206de87c68b4a1b15e2103202f0269fb6ac3f0cb661ea.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:a3e22155f561",
+   "split": "test"
+  },
+  {
+   "sha256": "dd5084a5b4c7e9853eff014ba9fd15ed00493372ec41181a3e5a169be080597a",
+   "filename": "dd5084a5b4c7e9853eff014ba9fd15ed00493372ec41181a3e5a169be080597a.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:dd5084a5b4c7",
+   "split": "dev"
+  },
+  {
+   "sha256": "f4ac9d3d03ba1b812ab00a141b054d8e5e719fcbd55f2955353ec402c08534aa",
+   "filename": "f4ac9d3d03ba1b812ab00a141b054d8e5e719fcbd55f2955353ec402c08534aa.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:f4ac9d3d03ba",
+   "split": "test"
+  },
+  {
+   "sha256": "f7824521fa09069c426fb84f0a96ec7f070defa691c5699e2f265e5151d5a458",
+   "filename": "f7824521fa09069c426fb84f0a96ec7f070defa691c5699e2f265e5151d5a458.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:f7824521fa09",
+   "split": "dev"
+  },
+  {
+   "sha256": "f8f89535dd95260ce451b482a3927c05717e02b072db08f91e9c1b1d61e2ae12",
+   "filename": "f8f89535dd95260ce451b482a3927c05717e02b072db08f91e9c1b1d61e2ae12.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:f8f89535dd95",
+   "split": "test"
+  },
+  {
+   "sha256": "e5ca1e5a8205beba25ec6cc2d4c9b518c2e2c35239e75644d967c7c76d6455fa",
+   "filename": "12851f0053449570257ff3dfe552621a8dd63d53.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:12851f0053449570257ff3dfe552621a8dd63d53",
+   "split": "test"
+  },
+  {
+   "sha256": "2fae0cd202ff70e371f356e7fe29f74e1b15d314d9de9e31fbc0e904f7fba728",
+   "filename": "2.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:2",
+   "split": "dev"
+  },
+  {
+   "sha256": "6fa50d87244c334eb17dfdfb9e5c23eb00d3ec5da07b32d9d46c96ac609b2298",
+   "filename": "2024csa.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:2024csa",
+   "split": "dev"
+  },
+  {
+   "sha256": "db8ab7c8f8e193cd1422ebc23e3df1ad82d854a789846dfe704dbe3ddb521a47",
+   "filename": "2QCQAIXCPZZPZPEEBHJT4WUB5BA42DCP.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:2qcqaixcpzzpzpeebhjt4wub5ba42dcp",
+   "split": "test"
+  },
+  {
+   "sha256": "0c49e976bdd79a0cc8c1ac559b4a8078765b9bbc471a50727943c868e23a76cb",
+   "filename": "37WOUPCWLZGR4AFDBNNHKUHNTVLYXVLD.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:37woupcwlzgr4afdbnnhkuhntvlyxvld",
+   "split": "test"
+  },
+  {
+   "sha256": "1d31a871fb7a1d07dc7daf995428dd461e1d9838868512f8072679d08d53ca3b",
+   "filename": "46KXLWATPXX7EE6CIIN3H4KUPVN3RX75.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:46kxlwatpxx7ee6ciin3h4kupvn3rx75",
+   "split": "dev"
+  },
+  {
+   "sha256": "4f4b970a3373cb75c048b14793a0421e39a1db9e5db4592db6da08c0bd729780",
+   "filename": "5IPJIVPM6LCPD36Z6TPNZNJQJNATZVNV.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:5ipjivpm6lcpd36z6tpnznjqjnatzvnv",
+   "split": "test"
+  },
+  {
+   "sha256": "5d4884c12f152726bedb3a20044435f357888caf766c809d217d9b76ae914b2d",
+   "filename": "6.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:6",
+   "split": "test"
+  },
+  {
+   "sha256": "1660b086a7aea181d397882e1f5a44c1fe1cfd6a21c9aa3999019f9675043619",
+   "filename": "67JSPHIB2F6WUL35OLRAOZ2UEDTI2XZ5.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:67jsphib2f6wul35olraoz2uedti2xz5",
+   "split": "dev"
+  },
+  {
+   "sha256": "521c623f9b6bb6fb18020ed836f3d6972eadef03383c2241060c3fa2e5d44c03",
+   "filename": "AWE3PO5E4TSOCWQPQNPZVRA44RUSABZG.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:awe3po5e4tsocwqpqnpzvra44rusabzg",
+   "split": "dev"
+  },
+  {
+   "sha256": "bacb0d949e90ac8db3e6c1f1f460eb41c257b367d31f172ef0347457ad6cd64f",
+   "filename": "AZ7NEETDHP5PGNW2OI4D5AUJBQMF3OYE.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:az7neetdhp5pgnw2oi4d5aujbqmf3oye",
+   "split": "dev"
+  },
+  {
+   "sha256": "cbaa3bc5155af2c21bc4e73c035b5f1032f4859990624d89cbc2a7f7c732f03b",
+   "filename": "BIQ36HF3QF3EIONNDI43TL5IU43SQKWJ.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:biq36hf3qf3eionndi43tl5iu43sqkwj",
+   "split": "dev"
+  },
+  {
+   "sha256": "5e7fcc76327c8f47728540ef0685dca98513c6a794f9ad72e9778164454cb371",
+   "filename": "Data Join vs Data Blending.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:data join vs data blending",
+   "split": "dev"
+  },
+  {
+   "sha256": "c79a7cd37d94cf5f904071955d838600c7c50741608d8c9138ffcecdcfcd0bec",
+   "filename": "Data Refresh Sample Data.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:data refresh sample data",
+   "split": "dev"
+  },
+  {
+   "sha256": "b0231c083e23eaa71f198b57ffb63cf9c0e4ae455ad1f87986f0f29e435db9e7",
+   "filename": "EI4NKIFHUUATUUEER4SDXP6EZNJK7GQH.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:ei4nkifhuuatuueer4sdxp6eznjk7gqh",
+   "split": "test"
+  },
+  {
+   "sha256": "6962f2795923db8bd4f88964af0c6d736734768347cb668525dbfb12bd95ea3f",
+   "filename": "KNOSFODTQCUVGFKMJLWBF6KZS3RVBESD.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:knosfodtqcuvgfkmjlwbf6kzs3rvbesd",
+   "split": "dev"
+  },
+  {
+   "sha256": "6fd9fdd5da1e9d097569111c4b49d3fd048e3d408fa5b021e355cbdf46bb5db5",
+   "filename": "MG64TNXHW4FTW3UTMAX6PXK5AZ5MMO5X.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:mg64tnxhw4ftw3utmax6pxk5az5mmo5x",
+   "split": "dev"
+  },
+  {
+   "sha256": "869a75ebae6c96b3bbfadd46fd84feac17a463c43296aad2f84a941ce59c2852",
+   "filename": "NXQWVJBI6J23JG35UF2PBILHUJXOKLKW.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:nxqwvjbi6j23jg35uf2pbilhujxoklkw",
+   "split": "test"
+  },
+  {
+   "sha256": "7b6584c7f354ad6986f717fe440572df9671ef9af0aa2e171fc698554d686667",
+   "filename": "P4RQFJUGBTNS65T2XDM6GMY3GVOTXUUC.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:p4rqfjugbtns65t2xdm6gmy3gvotxuuc",
+   "split": "test"
+  },
+  {
+   "sha256": "e789afcf12d54e987c314bde61fc432ccc2cf8ecb3a2bf8c5860048f9bb06b44",
+   "filename": "fsi-2006.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:fsi",
+   "split": "test"
+  },
+  {
+   "sha256": "946bd69ef1fe37b44722378f3bf72fe08c38a2564e16ef5bf584898b78dbe89d",
+   "filename": "fsi-2009.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:fsi",
+   "split": "test"
+  },
+  {
+   "sha256": "19c4212d3258bbd1dbf6a7f3b46c91897a2a81fd0a6c2904e93004b0f4277333",
+   "filename": "fsi-2010.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:fsi",
+   "split": "test"
+  },
+  {
+   "sha256": "5885f54de99de211d8563a879f9535c46dead5005b911a1922c118570a2fe263",
+   "filename": "fsi-2011.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:fsi",
+   "split": "test"
+  },
+  {
+   "sha256": "5e18c4690a752e92428d1467ed453eb2e78c06ca71e4f611e7a8694489ca0788",
+   "filename": "fsi-2012.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:fsi",
+   "split": "test"
+  },
+  {
+   "sha256": "1e335d5cdc582f3cde4ee7f58882c56317077d021fa20e4ccf56752d68bc61bf",
+   "filename": "fsi-2013.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:fsi",
+   "split": "test"
+  },
+  {
+   "sha256": "15e6b6e2f0596183df57a82ef7dfad1abefd843170ed4c4cb5e3bf991bba1233",
+   "filename": "fsi-2014.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:fsi",
+   "split": "test"
+  },
+  {
+   "sha256": "b1a4e6aeb97fb518439c2f1c9037a8678f486aaf73424d7b4939344e5b0dd683",
+   "filename": "fsi-2016.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:fsi",
+   "split": "test"
+  },
+  {
+   "sha256": "cdcc0c7ca04976c07a0bccea72e3a092ead44e1ef3056447ebac824c47b71fd3",
+   "filename": "practice.docx",
+   "label": "clean",
+   "format": "docx",
+   "group": "cln:practice",
+   "split": "test"
+  },
+  {
+   "sha256": "fc551ed15d40baafd63e98961f6492c4cce7900e0aca87b76980cf0965db3e47",
+   "filename": "ProDeck_v1_6_0.pptm",
+   "label": "clean",
+   "format": "pptm",
+   "group": "cln:prodeck",
+   "split": "dev"
+  },
+  {
+   "sha256": "e1cd0884628d71d95b0a171670e14e14baa10fe089f05e34f1480838449f5763",
+   "filename": "ProDeck_v1_6_1.pptm",
+   "label": "clean",
+   "format": "pptm",
+   "group": "cln:prodeck",
+   "split": "dev"
+  },
+  {
+   "sha256": "8600ab0cd35857a49a259930628beb83411b0cd81fcc06ce7f8650a4fdee4870",
+   "filename": "ProDeck_v1_7_0.pptm",
+   "label": "clean",
+   "format": "pptm",
+   "group": "cln:prodeck",
+   "split": "dev"
+  },
+  {
+   "sha256": "41179a2ffa5a694993dddfbb4aa19dbe71c28ef5cc0ce6028ebbf4f77edacdfe",
+   "filename": "ProDeck_v1_7_1.pptm",
+   "label": "clean",
+   "format": "pptm",
+   "group": "cln:prodeck",
+   "split": "dev"
+  },
+  {
+   "sha256": "680a77de640b1d66231a8847c6b6c5c0f3112f33744173146387fd453554c73d",
+   "filename": "ProDeck_v1_7_2.pptm",
+   "label": "clean",
+   "format": "pptm",
+   "group": "cln:prodeck",
+   "split": "dev"
+  },
+  {
+   "sha256": "79788314305e450e9d3a50a99cb9ff2cee3f1de96d235ddbca6b8edb6b23a419",
+   "filename": "ProDeck_v1_7_4.pptm",
+   "label": "clean",
+   "format": "pptm",
+   "group": "cln:prodeck",
+   "split": "dev"
+  },
+  {
+   "sha256": "c6312419a27ccce75f4fc46dcfe8a4e61c61f4e126b5ce2feec38afa56f1f055",
+   "filename": "ProDeck_v1_8_0.pptm",
+   "label": "clean",
+   "format": "pptm",
+   "group": "cln:prodeck",
+   "split": "dev"
+  },
+  {
+   "sha256": "8f8106c72954a379af7f3052e8dc320e3bc5e05773be10110cf5f5354039fbd1",
+   "filename": "Presentation Template.pptx",
+   "label": "clean",
+   "format": "pptx",
+   "group": "cln:presentation template",
+   "split": "dev"
+  },
+  {
+   "sha256": "392ceb6cfcb5fe2c58d5cd7763a22abe2a37618cc7021a71b9013782a20be232",
+   "filename": "Presentation_51.pptx",
+   "label": "clean",
+   "format": "pptx",
+   "group": "cln:presentation_51",
+   "split": "dev"
+  },
+  {
+   "sha256": "c10e1d5f82cf59228088ec5944987592925161f1eb7325313eac02ea10a93965",
+   "filename": "Presentation_52.pptx",
+   "label": "clean",
+   "format": "pptx",
+   "group": "cln:presentation_52",
+   "split": "test"
+  },
+  {
+   "sha256": "5e1eeac1b29fff9573cee11a640ba9606b2a86080e6f276a2e06819f0710bfc3",
+   "filename": "Presentation_56.pptx",
+   "label": "clean",
+   "format": "pptx",
+   "group": "cln:presentation_56",
+   "split": "test"
+  },
+  {
+   "sha256": "120cda6fdbdd3923eacfa7a7cfc9ec573091b44b69571f65c28e0538a89813c9",
+   "filename": "Presentation_62.pptx",
+   "label": "clean",
+   "format": "pptx",
+   "group": "cln:presentation_62",
+   "split": "test"
+  },
+  {
+   "sha256": "2d87f00a44dbae78cf18f1ecf589e52024bd9f789935cd9e12bd4e796ac2b04f",
+   "filename": "Presentation_66.pptx",
+   "label": "clean",
+   "format": "pptx",
+   "group": "cln:presentation_66",
+   "split": "test"
+  },
+  {
+   "sha256": "f0687fc732794bc8b43ee144b14c058729394e625ef6c6ca150a922626b18a66",
+   "filename": "Presentation_75.pptx",
+   "label": "clean",
+   "format": "pptx",
+   "group": "cln:presentation_75",
+   "split": "test"
+  },
+  {
+   "sha256": "648ac49d9b677357c9518f41240b0f3673c66825f76fa2fcdaa1256dc3088ab7",
+   "filename": "Presentation_86.pptx",
+   "label": "clean",
+   "format": "pptx",
+   "group": "cln:presentation_86",
+   "split": "dev"
+  },
+  {
+   "sha256": "3f3bed7a1a6ee336f360ba04fd1d07dbe7813ba10c810baae8fe98fa54384580",
+   "filename": "Presentation_88.pptx",
+   "label": "clean",
+   "format": "pptx",
+   "group": "cln:presentation_88",
+   "split": "dev"
+  },
+  {
+   "sha256": "3b9f60d1c6c54ca67cd6c86402c37b6313de0f05ebcbe9f1df3cd70918b56d9c",
+   "filename": "03_sine_wave.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:03_sine_wave",
+   "split": "dev"
+  },
+  {
+   "sha256": "afcee14d31409e9ea6f335c1f9e2a597e5dc9af288d512b43083765b73134a71",
+   "filename": "ALL USERFORM CONTROLS.XLSM",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:all userform controls",
+   "split": "test"
+  },
+  {
+   "sha256": "4f08f5595d5b3b99d0910fd460baa5d5f8945ce7c8c93902f3fe8acaaff0d05f",
+   "filename": "CHANGE USERFORM SIZE.XLSM",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:change userform size",
+   "split": "dev"
+  },
+  {
+   "sha256": "92005eef8abc94ed03f50e244c284933aec365dd3675c077f8817c06f682e6f9",
+   "filename": "DynamicDataConnection.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:dynamicdataconnection",
+   "split": "test"
+  },
+  {
+   "sha256": "4e6bace6f2f6c8304a7e6c4fa1fbd433656c0e4db513b40ba65be614351b4ca5",
+   "filename": "EXPORT ALL GRAPHICS.XLSM",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:export all graphics",
+   "split": "test"
+  },
+  {
+   "sha256": "740ff09db20f9e50195fc7ea38e9b2793a838c7ba9bd49ebecdccb583a7d588f",
+   "filename": "FORMLETTER.XLSM",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:formletter",
+   "split": "dev"
+  },
+  {
+   "sha256": "4cae7253e6eec6c40af46dc3805f843fa059e9678fd4d66fad137e8c31a9595c",
+   "filename": "Mailing a Single Sheet as an Attachment.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:mailing a single sheet as an attachment",
+   "split": "test"
+  },
+  {
+   "sha256": "280a11d92ba0f3a5e900b0c41e6357cb6fe68a5848062f66306f5ee84e75db5e",
+   "filename": "Practice_Excel22.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:practice_excel22",
+   "split": "test"
+  },
+  {
+   "sha256": "6a914aacf3d668ff9b853c6c270b1fa77954ad4d4d0b22155fc3d6c38dc0c7c6",
+   "filename": "Practice_QueryTableEvents.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:practice_querytableevents",
+   "split": "dev"
+  },
+  {
+   "sha256": "e41fb8a765cd7ff0d18a9b87c85abca35e9450e35acf19b993310c60d4693059",
+   "filename": "SHAPE OBJECT COLORS.XLSM",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:shape object colors",
+   "split": "dev"
+  },
+  {
+   "sha256": "376c9870a110eaa2a2f9d18e3f7db250ef2b7ec2412a9729a6815d238c07e6f0",
+   "filename": "application event tracker.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:application event tracker",
+   "split": "test"
+  },
+  {
+   "sha256": "98cec3a2df9bdc9c1bc890cc9da5699e91b065cc93a6eda0599c446b68cf563d",
+   "filename": "chart active cell.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:chart active cell",
+   "split": "dev"
+  },
+  {
+   "sha256": "51da8a7691ef014f6b0d349d602d443107fada4b0d1e41748d9d90cca773fe72",
+   "filename": "drive information.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:drive information",
+   "split": "dev"
+  },
+  {
+   "sha256": "c4454c969cbd9907f0dcdb4ba43818427e2de573f9f8e8820a39a9ed9138f7dc",
+   "filename": "emulate task pane.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:emulate task pane",
+   "split": "test"
+  },
+  {
+   "sha256": "9b1cfae42b2f2de325cb1aa3b5d73b7f81d455eec90ff3f48de83c4a1d5eb14b",
+   "filename": "excel usage log.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:excel usage log",
+   "split": "test"
+  },
+  {
+   "sha256": "9fa596c89c1df8ebfb144e0677d530e0305732c188d3e16e5a8cbd204fef6d50",
+   "filename": "export to HTML.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:export to html",
+   "split": "test"
+  },
+  {
+   "sha256": "be920b94b89ea3a8b2d9ee371c2231e3b70a73c2f0265ac6bf1e688356323eba",
+   "filename": "extended date functions.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:extended date functions",
+   "split": "dev"
+  },
+  {
+   "sha256": "31eb2c2450b4064da90df46a8d2c825b372f445d40be97240bde3ab3b73b1565",
+   "filename": "file information.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:file information",
+   "split": "dev"
+  },
+  {
+   "sha256": "6441a16b40a9b06cf530dd2fdfd59ba6d691035d7dde02e964777b3979963124",
+   "filename": "key press.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:key press",
+   "split": "test"
+  },
+  {
+   "sha256": "a87473b3284ac05568fa9503c694c7981cef1e7fba33881d226c59164e22d364",
+   "filename": "multiple buttons.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:multiple buttons",
+   "split": "dev"
+  },
+  {
+   "sha256": "fc5e1c68f8db60b6b8f50581f6d94c2dc9b99442e15eb347c7df60b292a3b5c5",
+   "filename": "ontime event demo.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:ontime event demo",
+   "split": "test"
+  },
+  {
+   "sha256": "d7dad1a0daea4b980da83bbca54b09e290bbf401e43261913a41d5c47a240101",
+   "filename": "range selections.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:range selections",
+   "split": "test"
+  },
+  {
+   "sha256": "78684ae23154c8a4e1c0a40ec60f87f1644952e19cd7f9e4a8f2bb3e8f3b4db6",
+   "filename": "shortcut with submenu.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:shortcut with submenu",
+   "split": "test"
+  },
+  {
+   "sha256": "6b8ebbfeee2a240e49d1ba228c97ae005be38a8646057ddaaea47135293da88c",
+   "filename": "splash screen.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:splash screen",
+   "split": "test"
+  },
+  {
+   "sha256": "160f3116daf3168f9ecfd62204e97a72e5e47d902a211476d7002c3608711f89",
+   "filename": "splash screen2.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:splash screen2",
+   "split": "test"
+  },
+  {
+   "sha256": "d83ed4fb764fec842d94ce21c2bfaab6a4d51a438555a1779bd7b069b26fd694",
+   "filename": "vba clock chart.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:vba clock chart",
+   "split": "test"
+  },
+  {
+   "sha256": "2de453394cc455b78647a99e51acbdcb4fd1c77c98c3e11df5f74ba17a3b73d5",
+   "filename": "workbook_beforeclose workaround.xlsm",
+   "label": "clean",
+   "format": "xlsm",
+   "group": "cln:workbook_beforeclose workaround",
+   "split": "dev"
+  },
+  {
+   "sha256": "07bb8678a8c40651fc9ee43e8ff9f2cb4d6c52bd250d873cacea14d2893bcddb",
+   "filename": "2016_West_Maize_Growth_and_Yield(ADC).xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:2016_west_maize_growth_and_yield(adc)",
+   "split": "test"
+  },
+  {
+   "sha256": "51d1675716e22609b8de51b80415392e7539a75950d46462d226bea4bde58755",
+   "filename": "AHHS 1 and 2 SciHUB 8-17-20.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:ahhs 1 and 2 scihub 8-17-20",
+   "split": "dev"
+  },
+  {
+   "sha256": "ffc89bdf01e2b71fcd1ba577eb9145376ff1d0d845e41aa4988db52c2dc0718f",
+   "filename": "Expense_Report_15.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:expense_report_15",
+   "split": "dev"
+  },
+  {
+   "sha256": "cf3dc02beb1462f074444c84385a9780f8ec8c7adc5db009280e864a18033f17",
+   "filename": "Keyfoods_1112.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:keyfoods_1112",
+   "split": "test"
+  },
+  {
+   "sha256": "c892a002d1ece2b96a3c5f6c577edd402f646c50483d9d131566a42fad238add",
+   "filename": "LIRF Maize 2008 r1_0.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:lirf maize 2008 r1_0",
+   "split": "dev"
+  },
+  {
+   "sha256": "5926d4f28e60276530d6914cc3af781d15969d92c74038fe9526baa54f328f3b",
+   "filename": "LaneCharles_A-zpd2_Data_30042018.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:lanecharles_a-zpd2_data_30042018",
+   "split": "test"
+  },
+  {
+   "sha256": "c6cfde07554559e5ad0c27a548fb8efc2dff3b644a305b989169a3dfdbaf4b5e",
+   "filename": "MagnusonMatthew_A-4xh9_dataset_20210126.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:magnusonmatthew_a-4xh9_dataset_20210126",
+   "split": "test"
+  },
+  {
+   "sha256": "be3ae12b508288914ddda72db0e05a99b73d6ad5412e58e2c8d359d6f9beff7f",
+   "filename": "MagnusonMatthew_A-f1w2_dataset_20200228.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:magnusonmatthew_a-f1w2_dataset_20200228",
+   "split": "dev"
+  },
+  {
+   "sha256": "6ce0427784e6cf4745f94db7a8fb49e387401881c10624d5f57be009aabb1ed0",
+   "filename": "MagnusonMatthew_A-fqzq_dataset_20191017.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:magnusonmatthew_a-fqzq_dataset_20191017",
+   "split": "dev"
+  },
+  {
+   "sha256": "4855745a78a06c1183de384e6953aab9b3c2148995dcaa7500a9f07ca55811f5",
+   "filename": "MagnusonMatthew_A-pk1b_dataset_20181121.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:magnusonmatthew_a-pk1b_dataset_20181121",
+   "split": "test"
+  },
+  {
+   "sha256": "fe42eae689f7bb2569e576a97e3b4adf34b6f9b911f2c86991c64afb81d331e6",
+   "filename": "MagnusonMatthew_A-wdcm_dataset_20190715.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:magnusonmatthew_a-wdcm_dataset_20190715",
+   "split": "test"
+  },
+  {
+   "sha256": "087095983df11bf45812de434245372174b6f280286918a2229a7812430ac7e6",
+   "filename": "power_query_demo.xlsx",
+   "label": "clean",
+   "format": "xlsx",
+   "group": "cln:power_query_demo",
+   "split": "test"
+  },
+  {
+   "sha256": "028efcd673687e3d0a1e395a7f3fb8b43f021ec4743577c7eb967369a5225b0e",
+   "filename": "028efcd673687e3d0a1e395a7f3fb8b43f021ec4743577c7eb967369a5225b0e.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:028efcd67368",
+   "split": "dev"
+  },
+  {
+   "sha256": "0501889bf03e8049fba3315e2b8cda1ed4bb04ac433755765663e803e9f84df4",
+   "filename": "0501889bf03e8049fba3315e2b8cda1ed4bb04ac433755765663e803e9f84df4.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:0501889bf03e",
+   "split": "dev"
+  },
+  {
+   "sha256": "127dcaaf5fccd69f9b86f526463937f3e700aeff4dbf90455e386b34f28bff59",
+   "filename": "127dcaaf5fccd69f9b86f526463937f3e700aeff4dbf90455e386b34f28bff59.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:a62a5eb3728a",
+   "split": "dev"
+  },
+  {
+   "sha256": "15ff1532c7dcaf25a5c3b8b17c7c78ac94b31b457b1eb753022db5ba673ebbf2",
+   "filename": "15ff1532c7dcaf25a5c3b8b17c7c78ac94b31b457b1eb753022db5ba673ebbf2.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:15ff1532c7dc",
+   "split": "dev"
+  },
+  {
+   "sha256": "1b1f455686dd68b52769932764c0e293ec5758387b6c9b2f7100f7b2e7ed44cb",
+   "filename": "1b1f455686dd68b52769932764c0e293ec5758387b6c9b2f7100f7b2e7ed44cb.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:1b1f455686dd",
+   "split": "dev"
+  },
+  {
+   "sha256": "3bc461557b49469631359401c244ca25f76f3305e26c96f485fe4749aa23f6a2",
+   "filename": "3bc461557b49469631359401c244ca25f76f3305e26c96f485fe4749aa23f6a2.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:f939ba21028c",
+   "split": "dev"
+  },
+  {
+   "sha256": "5c01a5ef2603e981a98187f5569ab1a702728cca5da5abf23c6e4df84c8ea9c7",
+   "filename": "5c01a5ef2603e981a98187f5569ab1a702728cca5da5abf23c6e4df84c8ea9c7.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:5c01a5ef2603",
+   "split": "test"
+  },
+  {
+   "sha256": "66c92aecca56115bdbbc2dc29bad267a607e23fec6f33a4593e4fb97257d734d",
+   "filename": "66c92aecca56115bdbbc2dc29bad267a607e23fec6f33a4593e4fb97257d734d.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:f939ba21028c",
+   "split": "dev"
+  },
+  {
+   "sha256": "6f5f9a315f359101814cba70f84e79f6c55105175777c29c230611ded53fedbe",
+   "filename": "6f5f9a315f359101814cba70f84e79f6c55105175777c29c230611ded53fedbe.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:6f5f9a315f35",
+   "split": "dev"
+  },
+  {
+   "sha256": "757ec732909b7e46dbef702cb33172558c31290b69566a1e3c6083d98ba62418",
+   "filename": "757ec732909b7e46dbef702cb33172558c31290b69566a1e3c6083d98ba62418.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:f939ba21028c",
+   "split": "dev"
+  },
+  {
+   "sha256": "77639acdae5c36538c41425e29d4fb993990a0f309cddffbde4fcdf261ea1507",
+   "filename": "77639acdae5c36538c41425e29d4fb993990a0f309cddffbde4fcdf261ea1507.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:f939ba21028c",
+   "split": "dev"
+  },
+  {
+   "sha256": "7b65cf782881267e48afe3a4997909b922396e3896f8379e13ad145eb6a61d72",
+   "filename": "7b65cf782881267e48afe3a4997909b922396e3896f8379e13ad145eb6a61d72.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:cc7b7b19c369",
+   "split": "dev"
+  },
+  {
+   "sha256": "7b6eb29b43e63f8f6b0da2f3f325ac71273b56e11769419a67e180a4040d368c",
+   "filename": "7b6eb29b43e63f8f6b0da2f3f325ac71273b56e11769419a67e180a4040d368c.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:f939ba21028c",
+   "split": "dev"
+  },
+  {
+   "sha256": "8d5b587491c4d79fe0ada0b8dc091169c44ea6a73db0d1ee6f47dc63f9df6caa",
+   "filename": "8d5b587491c4d79fe0ada0b8dc091169c44ea6a73db0d1ee6f47dc63f9df6caa.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:8d5b587491c4",
+   "split": "dev"
+  },
+  {
+   "sha256": "94be6da9598a9ed8f69ccb7edfaaa6c0074f4f04e545a2024d9e80f5032fc549",
+   "filename": "94be6da9598a9ed8f69ccb7edfaaa6c0074f4f04e545a2024d9e80f5032fc549.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:f939ba21028c",
+   "split": "dev"
+  },
+  {
+   "sha256": "97696754c8897eaff3ef129cad7963c70848844d98ed0f4c282ab665afa837ed",
+   "filename": "97696754c8897eaff3ef129cad7963c70848844d98ed0f4c282ab665afa837ed.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:97696754c889",
+   "split": "dev"
+  },
+  {
+   "sha256": "7e0515e6dc010b352a2a3526cc67eba592ec5da38709a027ccb3fac53d7868a0",
+   "filename": "MAD_Sessional_Papers_Leaked.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:7e0515e6dc01",
+   "split": "dev"
+  },
+  {
+   "sha256": "a62a5eb3728a464d99f0b39872b74ecab1ea312afabf1f0d84ca84a7ce1657a5",
+   "filename": "a62a5eb3728a464d99f0b39872b74ecab1ea312afabf1f0d84ca84a7ce1657a5.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:a62a5eb3728a",
+   "split": "dev"
+  },
+  {
+   "sha256": "ad35cd260cfd5be38fbbbaa24dcd852f65b88dce15773060376d362d17ff9078",
+   "filename": "ad35cd260cfd5be38fbbbaa24dcd852f65b88dce15773060376d362d17ff9078.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:ad35cd260cfd",
+   "split": "test"
+  },
+  {
+   "sha256": "b4de258f62843f57dc7f9a22656bb1243bbe4218cf2f2473680ee1d1fa828b89",
+   "filename": "b4de258f62843f57dc7f9a22656bb1243bbe4218cf2f2473680ee1d1fa828b89.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:b4de258f6284",
+   "split": "dev"
+  },
+  {
+   "sha256": "bac6e964e37bf4adcd9f670aad4e030f6ee68dadac7c03b417e091a54f3553de",
+   "filename": "bac6e964e37bf4adcd9f670aad4e030f6ee68dadac7c03b417e091a54f3553de.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:bac6e964e37b",
+   "split": "dev"
+  },
+  {
+   "sha256": "cc7b7b19c3694ddebe911977da4482e9f733e39b2461a1defeb8bcafdd075e18",
+   "filename": "cc7b7b19c3694ddebe911977da4482e9f733e39b2461a1defeb8bcafdd075e18.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:cc7b7b19c369",
+   "split": "dev"
+  },
+  {
+   "sha256": "d3e0384fc1e932671fcf881ca900b746195910aa4b60b390e86bb8305b542247",
+   "filename": "d3e0384fc1e932671fcf881ca900b746195910aa4b60b390e86bb8305b542247.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:d3e0384fc1e9",
+   "split": "dev"
+  },
+  {
+   "sha256": "d49cd70556c815882ab39d8b256843559e2cd2d12fa91c2d6beda90ca739ac00",
+   "filename": "d49cd70556c815882ab39d8b256843559e2cd2d12fa91c2d6beda90ca739ac00.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:d49cd70556c8",
+   "split": "dev"
+  },
+  {
+   "sha256": "d864691a6639585300b07e3ed4501e0c7a9bb30ebb4ba28243927e7b0ed68589",
+   "filename": "d864691a6639585300b07e3ed4501e0c7a9bb30ebb4ba28243927e7b0ed68589.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:f939ba21028c",
+   "split": "dev"
+  },
+  {
+   "sha256": "dcd24c86c61fa88d37f17be33b8a047e565599885d467db29c571a6279ff4ad0",
+   "filename": "dcd24c86c61fa88d37f17be33b8a047e565599885d467db29c571a6279ff4ad0.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:f939ba21028c",
+   "split": "dev"
+  },
+  {
+   "sha256": "dea20349a18896ca3bb2785f72c9a96606c406fe19f490e5c9e62d8f279e64fd",
+   "filename": "dea20349a18896ca3bb2785f72c9a96606c406fe19f490e5c9e62d8f279e64fd.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:dea20349a188",
+   "split": "dev"
+  },
+  {
+   "sha256": "f939ba21028cbd05c2312a6f62f3d54b4b01dbf3f7097c6258ff29a6451c6dee",
+   "filename": "f939ba21028cbd05c2312a6f62f3d54b4b01dbf3f7097c6258ff29a6451c6dee.docx",
+   "label": "malicious",
+   "format": "docx",
+   "group": "mal:f939ba21028c",
+   "split": "dev"
+  },
+  {
+   "sha256": "9dd04a0478f0544a405b6eaf7ac69d12b09d47e6bcb1d9c7381a337fbd2c1cba",
+   "filename": "9dd04a0478f0544a405b6eaf7ac69d12b09d47e6bcb1d9c7381a337fbd2c1cba.pptm",
+   "label": "malicious",
+   "format": "pptm",
+   "group": "mal:9dd04a0478f0",
+   "split": "dev"
+  },
+  {
+   "sha256": "c115f8f791f2bf1962ed1535182cb2eace2321607567080cbee40e3b06cee62b",
+   "filename": "c115f8f791f2bf1962ed1535182cb2eace2321607567080cbee40e3b06cee62b.pptm",
+   "label": "malicious",
+   "format": "pptm",
+   "group": "mal:c115f8f791f2",
+   "split": "dev"
+  },
+  {
+   "sha256": "d719137d0897400221a3aef32bcdd01d537113efd80ccc63b1cfaf9c2905b979",
+   "filename": "d719137d0897400221a3aef32bcdd01d537113efd80ccc63b1cfaf9c2905b979.pptm",
+   "label": "malicious",
+   "format": "pptm",
+   "group": "mal:d719137d0897",
+   "split": "dev"
+  },
+  {
+   "sha256": "ef626ed9781a41cf289c34127932aa17eaa4026d3907269a36f614f8512d0f57",
+   "filename": "ef626ed9781a41cf289c34127932aa17eaa4026d3907269a36f614f8512d0f57.pptm",
+   "label": "malicious",
+   "format": "pptm",
+   "group": "mal:ef626ed9781a",
+   "split": "dev"
+  },
+  {
+   "sha256": "061e17f3b2fd4a4dce1bf4f8a31198273f1abc47c32456d06fd5997ea4363578",
+   "filename": "061e17f3b2fd4a4dce1bf4f8a31198273f1abc47c32456d06fd5997ea4363578.pptx",
+   "label": "malicious",
+   "format": "pptx",
+   "group": "mal:b97e12807dcd",
+   "split": "test"
+  },
+  {
+   "sha256": "4e09c7b070043bd5bf50b7b2038dd170b491128eb28f5fdf61d9a07e831ece3c",
+   "filename": "4e09c7b070043bd5bf50b7b2038dd170b491128eb28f5fdf61d9a07e831ece3c.pptx",
+   "label": "malicious",
+   "format": "pptx",
+   "group": "mal:4e09c7b07004",
+   "split": "test"
+  },
+  {
+   "sha256": "5206fb8a22102a8cda01faed36f0b860d191df697ee327ddb6855c8821e00af3",
+   "filename": "5206fb8a22102a8cda01faed36f0b860d191df697ee327ddb6855c8821e00af3.pptx",
+   "label": "malicious",
+   "format": "pptx",
+   "group": "mal:95381fed0ea5",
+   "split": "dev"
+  },
+  {
+   "sha256": "671e4680c29afdb25453fcb9d78ff026d4f5561e32f5cc0085000e341fb0e30e",
+   "filename": "671e4680c29afdb25453fcb9d78ff026d4f5561e32f5cc0085000e341fb0e30e.pptx",
+   "label": "malicious",
+   "format": "pptx",
+   "group": "mal:671e4680c29a",
+   "split": "test"
+  },
+  {
+   "sha256": "6940e671332dc30c524c8d856f980a7dc52c08121a54213599a3540d47a82785",
+   "filename": "6940e671332dc30c524c8d856f980a7dc52c08121a54213599a3540d47a82785.pptx",
+   "label": "malicious",
+   "format": "pptx",
+   "group": "mal:6940e671332d",
+   "split": "test"
+  },
+  {
+   "sha256": "95381fed0ea5e87bb60b34d47463c830f31176b4b444176cea7c0a45c0e434d0",
+   "filename": "95381fed0ea5e87bb60b34d47463c830f31176b4b444176cea7c0a45c0e434d0.pptx",
+   "label": "malicious",
+   "format": "pptx",
+   "group": "mal:95381fed0ea5",
+   "split": "dev"
+  },
+  {
+   "sha256": "9e0483b81f719f172c70dda85adb8b9a813b3e81fd4aae7241c41f912e79a4eb",
+   "filename": "9e0483b81f719f172c70dda85adb8b9a813b3e81fd4aae7241c41f912e79a4eb.pptx",
+   "label": "malicious",
+   "format": "pptx",
+   "group": "mal:9e0483b81f71",
+   "split": "dev"
+  },
+  {
+   "sha256": "b97e12807dcde2a8fd53d7f8e74336442d0cf8dbed19c0a44fcef359160bdd77",
+   "filename": "b97e12807dcde2a8fd53d7f8e74336442d0cf8dbed19c0a44fcef359160bdd77.pptx",
+   "label": "malicious",
+   "format": "pptx",
+   "group": "mal:b97e12807dcd",
+   "split": "test"
+  },
+  {
+   "sha256": "d7f87f322803a94fe4e9e14cd5d01204ad361b4e5466217194650620fc506cc2",
+   "filename": "d7f87f322803a94fe4e9e14cd5d01204ad361b4e5466217194650620fc506cc2.pptx",
+   "label": "malicious",
+   "format": "pptx",
+   "group": "mal:d7f87f322803",
+   "split": "dev"
+  },
+  {
+   "sha256": "0a4777725673f9f7114ddceddd80e5a72ad3a4d20fd2014d4c60e2cc1a6cefc2",
+   "filename": "0a4777725673f9f7114ddceddd80e5a72ad3a4d20fd2014d4c60e2cc1a6cefc2.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:0a4777725673",
+   "split": "dev"
+  },
+  {
+   "sha256": "0d69d5a2417168afaa14f50be8c518379f2bd7bdb9861c227c810732ce44f9db",
+   "filename": "0d69d5a2417168afaa14f50be8c518379f2bd7bdb9861c227c810732ce44f9db.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:0d69d5a24171",
+   "split": "dev"
+  },
+  {
+   "sha256": "1b0329aa6aad2d2b0a9fc983fad925441fdaf8c5d53c1e878a98e3f0b5466984",
+   "filename": "1b0329aa6aad2d2b0a9fc983fad925441fdaf8c5d53c1e878a98e3f0b5466984.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:83c44b48121f",
+   "split": "dev"
+  },
+  {
+   "sha256": "1b7821a2e0c24aeb38ae3a90b5c85c410fdc2e08c43e4964b1cca670d5543897",
+   "filename": "1b7821a2e0c24aeb38ae3a90b5c85c410fdc2e08c43e4964b1cca670d5543897.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:83c44b48121f",
+   "split": "dev"
+  },
+  {
+   "sha256": "2463b5bafc20504e29dd56f380b469859e5d75eaad857156970656e4e949e4d6",
+   "filename": "2463b5bafc20504e29dd56f380b469859e5d75eaad857156970656e4e949e4d6.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:c6d1092e3f39",
+   "split": "test"
+  },
+  {
+   "sha256": "399c0881230f6309f1fead5dae33021a40ae2a4c37edac1c24c9b4e1a0e630f9",
+   "filename": "399c0881230f6309f1fead5dae33021a40ae2a4c37edac1c24c9b4e1a0e630f9.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:399c0881230f",
+   "split": "test"
+  },
+  {
+   "sha256": "440b16adc385f603aaa8fa1d4d867f491cb89e7c1d484a7c5879a3ad0af99b3d",
+   "filename": "440b16adc385f603aaa8fa1d4d867f491cb89e7c1d484a7c5879a3ad0af99b3d.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:440b16adc385",
+   "split": "dev"
+  },
+  {
+   "sha256": "48606d03613bc6c344704a8a8b2e2fabb03ad8632bc01216784973991959d7cb",
+   "filename": "48606d03613bc6c344704a8a8b2e2fabb03ad8632bc01216784973991959d7cb.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:48606d03613b",
+   "split": "test"
+  },
+  {
+   "sha256": "525dca66603ba93785836da140e8bf75d86a71ce828d30797171a3989e1dee51",
+   "filename": "525dca66603ba93785836da140e8bf75d86a71ce828d30797171a3989e1dee51.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:dbf93e494211",
+   "split": "test"
+  },
+  {
+   "sha256": "53da615c1019b82ccab22d69dac0cd531729f9b0e2720922a0bac832098a161a",
+   "filename": "53da615c1019b82ccab22d69dac0cd531729f9b0e2720922a0bac832098a161a.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:53da615c1019",
+   "split": "test"
+  },
+  {
+   "sha256": "545c2540511b95ace05b79b393530c4d1fe7929108ae23bc1d607b4e2c813ebb",
+   "filename": "545c2540511b95ace05b79b393530c4d1fe7929108ae23bc1d607b4e2c813ebb.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:545c2540511b",
+   "split": "dev"
+  },
+  {
+   "sha256": "57dd2da1d461bfc3dd4f7cff239c605ef042cabec29436aea6c4131448761b64",
+   "filename": "57dd2da1d461bfc3dd4f7cff239c605ef042cabec29436aea6c4131448761b64.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:57dd2da1d461",
+   "split": "dev"
+  },
+  {
+   "sha256": "5d12f3d6b8c0418215b29ad3afb0a3448966a6eaeb02dca2e89d6bff5d8e2570",
+   "filename": "5d12f3d6b8c0418215b29ad3afb0a3448966a6eaeb02dca2e89d6bff5d8e2570.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:dbf93e494211",
+   "split": "test"
+  },
+  {
+   "sha256": "7acbde4bafa9657b6ffd3cc114dfa603efb6f93a72df33d5ff135f4db385a7cb",
+   "filename": "7acbde4bafa9657b6ffd3cc114dfa603efb6f93a72df33d5ff135f4db385a7cb.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:7acbde4bafa9",
+   "split": "test"
+  },
+  {
+   "sha256": "7f54636439c9e2a50214b0b8bcdaf46d746ebdc26d4e06828dc91960ac6a0902",
+   "filename": "7f54636439c9e2a50214b0b8bcdaf46d746ebdc26d4e06828dc91960ac6a0902.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:7f54636439c9",
+   "split": "dev"
+  },
+  {
+   "sha256": "8a638a788adb0edb6622b16fd8783bc225470f8ff94b1bba4a94b4d8c105acef",
+   "filename": "8a638a788adb0edb6622b16fd8783bc225470f8ff94b1bba4a94b4d8c105acef.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:8a638a788adb",
+   "split": "test"
+  },
+  {
+   "sha256": "8ef4f92eeff604c0dbd125cf358350141d9e3c1ef400775365b202c5d95b920e",
+   "filename": "8ef4f92eeff604c0dbd125cf358350141d9e3c1ef400775365b202c5d95b920e.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:8ef4f92eeff6",
+   "split": "test"
+  },
+  {
+   "sha256": "960a10f03a65b1f5a9ee9f8452b13f53c9ed84103dfe5506f92957055f2d0697",
+   "filename": "960a10f03a65b1f5a9ee9f8452b13f53c9ed84103dfe5506f92957055f2d0697.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:c6d1092e3f39",
+   "split": "test"
+  },
+  {
+   "sha256": "972fa5a416057b28ba0a442f81765a9f775435a789acb9338ae89208d47f0dc7",
+   "filename": "972fa5a416057b28ba0a442f81765a9f775435a789acb9338ae89208d47f0dc7.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:c6d1092e3f39",
+   "split": "test"
+  },
+  {
+   "sha256": "c29066f832baeeb36abe9415dba3b9f2d6b95030caad2fda17390f412c674e6e",
+   "filename": "c29066f832baeeb36abe9415dba3b9f2d6b95030caad2fda17390f412c674e6e.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:c29066f832ba",
+   "split": "test"
+  },
+  {
+   "sha256": "c2e920944d994ba28bc9e159491a89d83e305e63fafc4a4e25433db63800d5fa",
+   "filename": "c2e920944d994ba28bc9e159491a89d83e305e63fafc4a4e25433db63800d5fa.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:c2e920944d99",
+   "split": "dev"
+  },
+  {
+   "sha256": "c6d1092e3f39218baf167992afbe020d713b47483e87b64f20dd43a35efe2903",
+   "filename": "c6d1092e3f39218baf167992afbe020d713b47483e87b64f20dd43a35efe2903.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:c6d1092e3f39",
+   "split": "test"
+  },
+  {
+   "sha256": "cbf56e47e7119c67bcea27ff4c560a334e15046b5019c6cdcfdf3d8f33b05737",
+   "filename": "cbf56e47e7119c67bcea27ff4c560a334e15046b5019c6cdcfdf3d8f33b05737.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:cbf56e47e711",
+   "split": "test"
+  },
+  {
+   "sha256": "dbf93e49421127168a80a7f036572651124bb3e754d3b35bb3a8849461041ddc",
+   "filename": "dbf93e49421127168a80a7f036572651124bb3e754d3b35bb3a8849461041ddc.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:dbf93e494211",
+   "split": "test"
+  },
+  {
+   "sha256": "f8a31715840852e8ef04016b31f909123f2aa864f3850c45eb511fd1885b4037",
+   "filename": "f8a31715840852e8ef04016b31f909123f2aa864f3850c45eb511fd1885b4037.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:f8a317158408",
+   "split": "test"
+  },
+  {
+   "sha256": "f9fdec54e703a9bb6d95c49d2d20ead4f1096ddff57ff7b1672ecc6f8d765797",
+   "filename": "f9fdec54e703a9bb6d95c49d2d20ead4f1096ddff57ff7b1672ecc6f8d765797.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:f9fdec54e703",
+   "split": "test"
+  },
+  {
+   "sha256": "fcf51490b96d913fdb1293d6d7c3c690d6c9eaafa15228ac8b3025eb560ef208",
+   "filename": "fcf51490b96d913fdb1293d6d7c3c690d6c9eaafa15228ac8b3025eb560ef208.xlsm",
+   "label": "malicious",
+   "format": "xlsm",
+   "group": "mal:fcf51490b96d",
+   "split": "dev"
+  },
+  {
+   "sha256": "0fba081a041620c29f47805a53d21b06fbd45602e919ea9faf4932d384307e32",
+   "filename": "0fba081a041620c29f47805a53d21b06fbd45602e919ea9faf4932d384307e32.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:0fba081a0416",
+   "split": "test"
+  },
+  {
+   "sha256": "30dd7640f02734a767711193cff12b0de100a15180661ed64b7f5e6c8a7325a2",
+   "filename": "30dd7640f02734a767711193cff12b0de100a15180661ed64b7f5e6c8a7325a2.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:30dd7640f027",
+   "split": "test"
+  },
+  {
+   "sha256": "344ad37454c87d35b61d6928849d12285525a63191c2fb1633d85a1450535c72",
+   "filename": "344ad37454c87d35b61d6928849d12285525a63191c2fb1633d85a1450535c72.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:344ad37454c8",
+   "split": "dev"
+  },
+  {
+   "sha256": "4cce78237c2dd903e6f277f50753aeb2f63e1f856722b5a379a81e306af3ae71",
+   "filename": "4cce78237c2dd903e6f277f50753aeb2f63e1f856722b5a379a81e306af3ae71.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:4cce78237c2d",
+   "split": "test"
+  },
+  {
+   "sha256": "502fed78c758e254768aebf135fa07ffa92f3ab1343b06ddc902b42c98dfd81b",
+   "filename": "502fed78c758e254768aebf135fa07ffa92f3ab1343b06ddc902b42c98dfd81b.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:94bae853353c",
+   "split": "test"
+  },
+  {
+   "sha256": "6eb0c244dd286ae14af2f201e66ff971d8ad21135e2d619751e3755d606eb748",
+   "filename": "6eb0c244dd286ae14af2f201e66ff971d8ad21135e2d619751e3755d606eb748.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:6eb0c244dd28",
+   "split": "test"
+  },
+  {
+   "sha256": "82a6bc0c91753e50d86d70e628559aa98d59ce8d18a54c0096dc4d61570c7313",
+   "filename": "82a6bc0c91753e50d86d70e628559aa98d59ce8d18a54c0096dc4d61570c7313.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:82a6bc0c9175",
+   "split": "dev"
+  },
+  {
+   "sha256": "94bae853353c61ab9b5f0ef4539e3d035cefbc3015772a4210ecda2bee2a84c6",
+   "filename": "94bae853353c61ab9b5f0ef4539e3d035cefbc3015772a4210ecda2bee2a84c6.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:94bae853353c",
+   "split": "test"
+  },
+  {
+   "sha256": "6e86272ca11b23bc1eaa1c3ca861deb310e6a0dc49e47a378695c4348b7bb4d7",
+   "filename": "CLICK_BAIT.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:6e86272ca11b",
+   "split": "test"
+  },
+  {
+   "sha256": "b291f17e5402645975b43f5c77bccfe4086521a8692a03416155b67d6c681c2d",
+   "filename": "b291f17e5402645975b43f5c77bccfe4086521a8692a03416155b67d6c681c2d.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:b291f17e5402",
+   "split": "dev"
+  },
+  {
+   "sha256": "dd76fa4057fe80097239ce1083ad02470c95f8cc6f46f45625bea944d195f456",
+   "filename": "dd76fa4057fe80097239ce1083ad02470c95f8cc6f46f45625bea944d195f456.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:dd76fa4057fe",
+   "split": "test"
+  },
+  {
+   "sha256": "f816fa23310189511527310951896f19f9b4496994b5e7e40df9f9f8e661bc0e",
+   "filename": "f816fa23310189511527310951896f19f9b4496994b5e7e40df9f9f8e661bc0e.xlsx",
+   "label": "malicious",
+   "format": "xlsx",
+   "group": "mal:f816fa233101",
+   "split": "dev"
+  }
+ ]
+}
