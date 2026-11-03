@@ -97,6 +97,17 @@ def _apply_verdict_floor(verdict: Verdict, signal_graph: SignalGraph) -> tuple[V
     return verdict, floor_reasons
 
 
+def _web_analysis_advised(verdict: "Verdict", signal_graph: SignalGraph) -> bool:
+    """Algorithm 4, final step: a CLEAN verdict on a document that still carries
+    non-whitelisted external URLs gets a non-binding WebAnalysisAdvised note.
+    Deterministic and advisory only: it never changes the verdict."""
+    return verdict == Verdict.CLEAN and bool(signal_graph.all_urls)
+
+
+_WEB_ADVISORY_REASON = ("Advisory (non-binding): WebAnalysisAdvised - CLEAN verdict with "
+                        "non-whitelisted external URLs; verdict unchanged.")
+
+
 _GRAPH_PROMPT_ADDENDUM = """SIGNAL GRAPH:
 The input includes `signal_graph`, built deterministically from the analyzer outputs. Each node is one signal with a type, a severity (LOW/MEDIUM/HIGH/CRITICAL), a confidence and the artifact it was found in. When present, `edges` link signals by fixed rules (containment, exec_dependency, behavioral, network) and `correlated_chains` lists groups of linked signals. `deterministic_risk_score` (0-100) summarises the evidence.
 - Treat linked signals as one coordinated technique and weigh them together.
@@ -203,6 +214,10 @@ async def aggregate(
                 if final_verdict in (Verdict.MALICIOUS, Verdict.SUSPICIOUS) and not mitre_techs:
                     mitre_techs.append(MitreTechnique(id="T1204.002", name="Malicious File", tactic="User Execution", description="User must open the file to trigger any potential action."))
 
+            web_advised = _web_analysis_advised(final_verdict, signal_graph)
+            if web_advised:
+                final_reasoning.append(_WEB_ADVISORY_REASON)
+
             verdict = AnalysisVerdict(
                 verdict=final_verdict,
                 confidence=llm_data.confidence,
@@ -215,12 +230,14 @@ async def aggregate(
                 indicators=llm_data.indicators,
                 behavior_profile=llm_data.behavior_profile,
                 mitre_techniques=mitre_techs,
-                needs_web_analysis=llm_data.needs_web_analysis,
+                needs_web_analysis=bool(llm_data.needs_web_analysis) or web_advised,
                 prompt_injection_detected=llm_data.prompt_injection_detected,
                 extracted_iocs=list(set(llm_data.extracted_iocs + signal_graph.all_urls)),
                 signal_graph=signal_graph,
                 input_data=aggregator_input,
-                analysis_metadata={**graph_meta, "llm_risk_estimate": llm_data.risk_score},
+                analysis_metadata={**graph_meta, "llm_risk_estimate": llm_data.risk_score,
+                                   "web_analysis_advised": web_advised,
+                                   "llm_needs_web_analysis": bool(llm_data.needs_web_analysis)},
             )
             return verdict
 
@@ -240,6 +257,11 @@ async def aggregate(
     fb.analysis_metadata.update(graph_meta)
     if det_risk is not None:
         fb.risk_score = det_risk
+    web_advised = _web_analysis_advised(fb.verdict, signal_graph)
+    fb.analysis_metadata["web_analysis_advised"] = web_advised
+    if web_advised:
+        fb.needs_web_analysis = True
+        fb.reasoning.append(_WEB_ADVISORY_REASON)
     return fb
 
 
